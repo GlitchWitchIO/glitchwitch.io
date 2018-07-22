@@ -1,10 +1,10 @@
 ---
 layout: home
 title:
-tagline: "Lorem ipsum dolor sit amet."
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-tagline2: "Lorem ipsum dolor sit amet."
-text2: "Lorem Ipsum <br>Dolor sit amet consectetur."
+tagline: "GlitchWitch - Information Security Researcher"
+text: "I am an independent security researcher with a mind for breaking things."
+tagline2: "Whoami"
+text2: "Learn more about me and the services I can provide"
 permalink: /
 image:
   feature: blog/default-feature.jpg
