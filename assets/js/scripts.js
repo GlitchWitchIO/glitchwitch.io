@@ -741,7 +741,7 @@ function(t, e) {
         return y
     }
 }), $(document).ready(function() {
-    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), contactCardFlip(), videoPlay(), navCurrent(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchIO/boldux")
+    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), contactCardFlip(), videoPlay(), navCurrent(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchIO/glitchwitch.io")
 }), $("video").length && $(window).on("scroll", _.throttle(function() {
     Waypoint.refreshAll()
 }, 1e3)), $(".subnav-scroll-indicator--left").on("click", function(t) {
