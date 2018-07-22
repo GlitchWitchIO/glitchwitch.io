@@ -8,7 +8,7 @@ comments: false
 image:
   feature: blog/1/feature.jpg
   hero: blog/1/header.jpg
-  tags: [site updates]
+tags: [site updates]
 ---
 
 Hello World; Welcome to my blog! There isn’t much to see here yet, sorry.

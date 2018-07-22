@@ -8,7 +8,7 @@ comments: true
 image:
   feature: blog/2/feature.jpg
   hero: blog/2/header.jpg
-  tags: [ctf, hackthebox, labs, notes]
+tags: [ctf, hackthebox, labs, notes]
 ---
 
 ## Introduction

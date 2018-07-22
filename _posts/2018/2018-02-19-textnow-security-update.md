@@ -3,12 +3,12 @@ layout: post
 title: "TextNow Security Update"
 tagline: "TextNow Security Update and BlackBox Penetration Test by GlitchWitch.io"
 description: "TextNow Security Update and BlackBox Penetration Test by GlitchWitch.io"
+tags: [clients, daya breach, s3 bucket, pentest, responsible disclosure]
 date:   2018-02-19
 comments: false
 image:
   feature: blog/4/feature.jpg
   hero: blog/4/header.jpg
-  tags: [clients, daya breach, s3 bucket, pentest, responsible disclosure]
 ---
 __The following is a joint post made by TextNow and GlitchWitch.io__
 
