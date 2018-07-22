@@ -24,7 +24,7 @@
             width: 100%;
         }
     } // Default Header Background
-        background: url('/assets/img/blog/sample-header.jpg') $dark-gray 20%
+        background: url('/assets/img/blog/default-header.jpg') $dark-gray 20%
             center/cover no-repeat;
 
         @include media('>=md') {

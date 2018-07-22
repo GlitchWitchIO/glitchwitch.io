@@ -7,6 +7,6 @@ tagline2: "Lorem ipsum dolor sit amet."
 text2: "Lorem Ipsum <br>Dolor sit amet consectetur."
 permalink: /
 image:
-  feature: blog/sample-feature.jpg
-  hero: blog/sample-header.jpg
+  feature: blog/default-feature.jpg
+  hero: blog/default-header.jpg
 ---

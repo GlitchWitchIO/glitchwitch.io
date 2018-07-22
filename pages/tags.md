@@ -4,8 +4,8 @@ title: "Tags"
 tagline: "Select a tag to view associated posts."
 permalink: /tags/
 image:
-  feature: blog/sample-feature.jpg
-  hero: blog/sample-header.jpg
+  feature: blog/default-feature.jpg
+  hero: blog/default-header.jpg
 ---
 {% for tag in site.tags %} {% assign t = tag | first %} <a class="post-tags lg" href="/tags/#{{t | replace:" ","-" }}">{{ t }}</a> {% endfor %}
 

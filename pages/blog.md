@@ -1,9 +1,9 @@
 ---
 layout: post_listing
 title: "Blog"
-tagline: "Lorem ipsum dolor sit amet."
+tagline: "An archive of things I've learned, discovered, and want to share."
 permalink: /blog/
 image:
-  feature: blog/sample-feature.jpg
-  hero: blog/sample-header.jpg
+  feature: blog/default-feature.jpg
+  hero: blog/default-header.jpg
 ---
