@@ -1,11 +1,18 @@
 ---
 layout: contact
 title: "Contact"
-tagline: "Lorem ipsum dolor sit amet."
-tagline2: "Talk To Us"
-tagline3: "Visit Us"
-text: "Drop us a line, and let’s get<br>the conversation started."
-text2: "Pulvinar a semper id sed,<br>elit to adipiscing id dolor.<br>Consectetur adipiscing elit."
+tagline: "You can reach me using one of the mediums..."
+tagline2: "Comment"
+text2: "Typical response time within 48 hours"
+info2: "If you have a question related to a specific blog post, please use the comment feature (provided by Disqus) rather than emailing me about it."
+
+tagline3: "Email"
+text3: "Typical response time within 48 hours"
+
+tagline4: "Twitter"
+text4: "Typical response time within 24 hours"
+
+
 permalink: /contact/
 image:
   feature: blog/default-feature.jpg

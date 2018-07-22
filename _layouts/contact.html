@@ -16,69 +16,30 @@ layout: default
         <div class="inner-block column one-third-md">
           <div class="contact-content">
             <p class="contact-title">{{ page.tagline2 }}</p>
-            <p class="contact-text">{{ page.text }}</p>
+            <p class="contact-text"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.text2 }}</p>
           </div>
-          {% if author.email %}
           <div class="contact-group">
-            <p class="contact-text">We&rsquo;re available at:</p>
-            <a href="mailto:{{ author.email }}" class="contact-link">{{ author.email }}</a>
-          </div>
-          {% endif %}
-          {% if author.phone %}
-          <div class="contact-content">
-            <p class="contact-text">Or, you can call us at:</p>
-            <a href="tel:{{ author.phone }}" class="contact-link">{{ author.phone }}</a>
-          </div>
-          {% endif %}
-        </div>
-        <div class="inner-block column two-third-md">
-          <div class="contact-letter">
-            <div class="contact-flipper">
-              <div class="contact-front contact-cover-background">
-                <!-- Front of the letter content -->
-
-                <p class="contact-front-heading">Greetings From</p>
-                <p class="contact-star">&#9733;</p>
-                <p class="contact-front-title">{{ author.city }}, {{ author.state }}</p>
-              </div>
-              <div class="contact-back">
-                <!-- Back of the letter content -->
-                <div class="contact-back-stamp"></div>
-                <div class="contact-back-content">
-                  <div class="contact-back-box-intro">
-                    <p class="contact-back-tagline">Send us an email</p>
-                  </div>
-                  {% if author.email %}<a href="mailto:{{ author.email }}" class="contact-back-box-link">
-                    <p class="contact-back-text">We&rsquo;re available at:</p>
-                    <p class="contact-back-email">{{ author.email }}</p>{% endif %}
-                  </a>
-                </div>
-              </div>
-            </div>
+            <p class="contact-text"><a href="{{ site.url }}/blog/" class="contact-link">visit the blog</a></p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="block padded">
-      <div class="container row">
         <div class="inner-block column one-third-md">
           <div class="contact-content">
             <p class="contact-title">{{ page.tagline3 }}</p>
-            <p class="contact-text">{{ page.text2 }}</p>
-            <div class="contact-address-group">
-              <a href="#" class="contact-link" target="_blank">
-                {{ author.address }}<br />
-                {{ author.state }} {{ author.city }}, {{ author.postalcode }}
-              </a>
-              <a href="#" class="contact-map-pin" target="_blank"></a>
-            </div>
+            <p class="contact-text"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.text3 }}</p>
+          </div>
+          <div class="contact-group">
+            <p class="contact-text"><a href="mailto:{{ author.email }}" class="contact-link">{{ author.email }}</a></p>
           </div>
         </div>
-        <div class="inner-block gutter-top-mobile column two-third-md">
-          <div class="contact-map-container">
-            <a class="contact-cover-background column full-xs half-sm google-map" href="#" target="_blank"></a>
-            <a class="contact-cover-background column full-xs half-sm google-street" href="#" target="_blank"></a>
+
+        <div class="inner-block column one-third-md">
+          <div class="contact-content">
+            <p class="contact-title">{{ page.tagline4 }}</p>
+            <p class="contact-text"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.text4 }}</p>
+          </div>
+          <div class="contact-group">
+            <p class="contact-text"><a href="https://twitter.com/{{ author.twitter }}" class="contact-link">@{{ author.twitter }}</a></p>
           </div>
         </div>
       </div>
