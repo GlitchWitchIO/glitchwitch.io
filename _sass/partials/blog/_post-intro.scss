@@ -131,7 +131,7 @@
 
 // EXECUTIVE SUMMARY
 .post-content {
-    @include text('source-sans-pro', 24, 300);
+    @include text('source-sans-pro', 18, 300);
     line-height: 1.4;
     margin: 0;
     -webkit-font-smoothing: antialiased;
@@ -161,8 +161,11 @@
 .post-content a:hover {
   color: #555 !important;
 }
-
-
+.post-content h2 {
+ margin:2em 0 0.8em;
+ padding-bottom: 5px;
+ border-bottom:2px solid #B94278
+}
 // BREAKDOWN
 .post-breakdown {
     overflow: hidden;
