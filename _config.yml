@@ -3,8 +3,8 @@
 # Site wide configuration
 ####################################
 #
-title: BoldUX
-keywords: ["BoldUX, Jekyll, Theme"]
+title: GlitchWitch.IO
+keywords: ["Glitch Witch, GlitchWitch, Infosec, hacker, researcher, spooky hacker girl"]
 url: https://glitchwitch.io
 #url: http://127.0.0.1:4000
 
@@ -36,17 +36,12 @@ kramdown:
 #
 owner:
 # Contact Info
-  email: "hello@jekyll.tld"
-  phone: "404-500-1337"
-  city: "Toronto"
-  state: "ON"
-  postalcode: "M5A 0X0"
-  address: "404 Address Ave"
+  email: "hello@glitchwitch.io"
 # APIs and other settings
   giphy: RmufVIQaRvbF8g8KsT80ByLnCf0JgcmR # Needed for 404 background fail gif
   disqus-shortname: glitchwitchio
   google-analytics: #UA-XXXXXXXX-X
   rss: feed.xml
 # Social
-  twitter: glitchwitchio
-  github: glitchwitchio
+  twitter: GlitchWitchIO
+  github: GlitchWitchIO

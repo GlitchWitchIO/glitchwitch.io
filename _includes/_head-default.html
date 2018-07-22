@@ -7,33 +7,6 @@
 
 
 <!-- Scripts -->
-<!-- Structured Data SEO -->
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Organization",
-  "name": "{{ site.title }}",
-  "url": "{{ site.url }}",
-  "image": {% if page.image.hero contains 'http' %} "{{ page.image.hero }}" {% else %} "{{ site.url }}/assets/img/{{ page.image.hero }}"{% endif %},
-  "description": "{{ description }}",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "{{ author.email }}",
-    "telephone": "{{ author.phone }}",
-    "contactType": "customer service"
-  },
-  "location": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "{{ author.city }}",
-      "addressRegion": "{{ author.state }}",
-      "postalCode": "{{ author.postalcode }}",
-      "streetAddress": "{{ author.address }}"
-    }
-  }
-}<
-</script>
 <style>
   .post-breakdown-box,
   .post-inner-block-content,
