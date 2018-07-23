@@ -1,3 +1,4 @@
+{% if page.title %} {% capture title %}{{ site.title }} - {{ page.title }}{% endcapture %} {% else %} {% capture title %}{{ site.title }}{% endcapture %} {% endif %} {% if page.description %} {% capture description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {% elsif page.tagline %} {% capture description %}{{ page.tagline | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {% else %} {% capture description %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {% endif %} {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
   {% include _head.html %}
   {% include _head-default.html %}
 </head>
