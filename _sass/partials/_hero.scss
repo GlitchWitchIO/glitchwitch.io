@@ -37,7 +37,7 @@
   max-width: 1000px;
 
   .hero-lg & {
-    @include text('sentinel', 55, 300, $iron);
+    @include text('source-sans-pro', 36, 300, $iron);
     margin: 0 0 $textGap*2;
   }
 
