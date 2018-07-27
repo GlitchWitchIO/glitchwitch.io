@@ -6,7 +6,7 @@
 }
 
 .content-title {
-  @include text('source-sans-pro', 36, 300, $night-rider);
+  @include text('source-sans-pro', 34, 300, $night-rider);
   margin: 0 0 $textGap*2;
   max-width: 700px;
 }

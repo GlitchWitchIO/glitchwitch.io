@@ -32,12 +32,12 @@
 }
 
 .hero-title {
-  @include text('source-sans-pro', 48, 300, $night-rider);
+  @include text('source-sans-pro', 36, 300, $night-rider);
   margin: 0 0 $textGap;
   max-width: 1000px;
 
   .hero-lg & {
-    @include text('source-sans-pro', 36, 300, $iron);
+    @include text('source-sans-pro', 40, 300, $iron);
     margin: 0 0 $textGap*2;
   }
 
