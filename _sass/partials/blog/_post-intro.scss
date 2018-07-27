@@ -112,17 +112,17 @@
 }
 
 .post-tags {
-  @include text('sentinel', 10, 300);
-  text-transform: uppercase;
-  text-decoration: none;
-  color: $white-smoke !important;
-  background: $jaguar;
-  padding: 4px;
-  margin: 4px;
-  &.lg {
-    @include text('sentinel', 16, 300);
+    @include text('sentinel', 10, 300);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white-smoke !important;
+    background: $jaguar;
     padding: 4px;
-  }
+    margin: 2px 4px 2px 0;
+    line-height: 2.2;
+    &.lg {
+      @include text('sentinel', 16, 300);
+    }
 }
 
 .post-tags:hover {
@@ -159,13 +159,26 @@
 }
 
 .post-content a:hover {
-  color: #555 !important;
+    color: #555 !important;
 }
 .post-content h2 {
  margin:2em 0 0.8em;
  padding-bottom: 5px;
  border-bottom:2px solid #ccc
 }
+
+.post-content blockquote {
+    display:block;
+    position:relative;
+    padding-left:20px;
+    font-style:italic;
+    border-left:5px solid #ccc;
+}
+
+.post-content img {
+    max-width: 100%;
+}
+
 // BREAKDOWN
 .post-breakdown {
     overflow: hidden;

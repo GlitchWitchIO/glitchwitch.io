@@ -79,7 +79,7 @@
 }
 
 .comments-text {
-  @include text('source-sans-pro', 26, 300);
+  @include text('source-sans-pro', 20, 300);
   margin: 0 0 $textGap*1.5;
 }
 
