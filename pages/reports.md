@@ -16,7 +16,7 @@ Unless otherwise stated or agreed upon in written communication, a 45-day disclo
 
 ## Report List
 
-The following list includes some of the findings by GlitchWitch.io since Late 2017
+The following list includes some of the findings by GlitchWitch.io since late 2017
 
 | --- | --- | :--- | --- |
 | ID | Type | Vendor | Status |{% for item in site.data.reports %}
