@@ -1,8 +1,11 @@
 - title: About
-  url: /about
+  url: /about/
 
 - title: Blog
-  url: /blog
+  url: /blog/
 
 - title: Contact
-  url: /contact
+  url: /contact/
+
+- title: Reports
+  url: /reports/

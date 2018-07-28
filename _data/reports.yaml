@@ -1,0 +1,39 @@
+- id: GW0004
+  link:
+  type: ID
+  type-long: Information Disclosure
+  vendor: nhpopc.gov.au
+  status: Patched
+  date: 17 July 2018
+  date-patched: 18 July 2018
+  date-published: 29 July 2018
+
+- id: GW0003
+  link:
+  type: RCE
+  type-long: Remote Code Execution
+  vendor: CAAManitoba.com
+  status: New
+  date: 09 July 2018
+  date-patched:
+  date-published:
+
+- id: GW0002
+  link: #
+  type: ID
+  type-long: Information Disclosure
+  vendor: Undisclosed
+  status: Patched
+  date: 19 May 2018
+  date-patched: 30 May 2018
+  date-published: 30 May 2018
+
+
+- id: GW0001
+  link: /blog/2018-02/textnow-security-update
+  type: ID
+  type-long: Information Disclosure
+  vendor: TextNow.com
+  status: Patched
+  date: 01 Oct 2017
+  date-published: 19 Feb 2018

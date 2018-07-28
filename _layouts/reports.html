@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% assign report = site.data.reports | where: 'id', page.report-id %} {% assign report = report[0] %}
+    <main class="wrapper">
+      <header class="hero">
+        <div class="container">
+          <h1 class="hero-title">{{ site.title }} - {{ report.vendor }} Vulnerability Report</h1>
+          <p class="hero-text">
+            {{ report.id }} - {{ report.type-long }} - {{ report.status }}
+          </p>
+        </div>
+      </header>
+
+      <section class="block column padded white-smoke">
+        <div class="container">
+          <div class="post-content">
+            {% if report.date-published %}
+              <p>This report was fully disclosed on {{ report.date-published | date: "%-d %B %Y" }}</p>
+            {% else %}
+              <p>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }} or when the issue has been patched.</p>
+            {% endif %}
+            {{ content }}
+          </div>
+        </div>
+      </section>

@@ -1,0 +1,37 @@
+table {
+ margin:40px 0;
+ width:100%;
+ border-collapse:collapse;
+ box-sizing:border-box
+}
+table td {
+ border:1px solid #ccc;
+ padding:7px 20px
+}
+tr:first-child td {
+ color:$jaguar;
+}
+td:first-child {
+ width:8%
+}
+td:nth-child(2) {
+ width:8%;
+ text-align:center
+}
+td span {
+ cursor:help;
+ color:$white-smoke;
+ background-color:$charcoal;
+ border-radius:3px;
+ padding:3px 6px;
+ font-size:13px
+}
+td:last-child {
+ text-align:center;
+ width:6%
+}
+td > a {
+ border-bottom:0;
+ display:block;
+ padding-bottom:0
+}
