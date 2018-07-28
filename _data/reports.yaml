@@ -18,17 +18,6 @@
   date-patched:
   date-published:
 
-- id: GW0002
-  link: #
-  type: ID
-  type-long: Information Disclosure
-  vendor: Undisclosed
-  status: Patched
-  date: 19 May 2018
-  date-patched: 30 May 2018
-  date-published: 30 May 2018
-
-
 - id: GW0001
   link: /blog/2018-02/textnow-security-update
   type: ID
