@@ -38,7 +38,6 @@ owner:
 # Contact Info
   email: "hello@glitchwitch.io"
 # APIs and other settings
-  giphy: RmufVIQaRvbF8g8KsT80ByLnCf0JgcmR # Needed for 404 background fail gif
   disqus-shortname: glitchwitchio
   google-analytics: #UA-XXXXXXXX-X
   rss: feed.xml
