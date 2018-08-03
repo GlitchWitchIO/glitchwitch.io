@@ -9,6 +9,8 @@ comments: false
 image:
   feature: blog/4/feature.jpg
   hero: blog/4/header.jpg
+  credit: TextNow Inc.
+  creditlink: https://about.textnow.com/press/
 ---
 __The following is a joint post made by TextNow and GlitchWitch.io__
 

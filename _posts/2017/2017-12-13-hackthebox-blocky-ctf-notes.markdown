@@ -8,6 +8,8 @@ comments: true
 image:
   feature: blog/2/feature.jpg
   hero: blog/2/header.jpg
+  credit: Someone at Microsoft
+  creditlink: https://minecraft.net/
 tags: [ctf, hackthebox, labs, notes]
 ---
 

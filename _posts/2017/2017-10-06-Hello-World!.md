@@ -8,6 +8,8 @@ comments: false
 image:
   feature: blog/1/feature.jpg
   hero: blog/1/header.jpg
+  credit: Kristina Paukshtite
+  creditlink: https://www.pexels.com/u/kpaukshtite/
 tags: [site updates]
 ---
 
