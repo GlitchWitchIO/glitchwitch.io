@@ -8,7 +8,7 @@
 }
 
 .post-block-tagline {
-    @include text('trade-gothic', 16, 400);
+    @include text('gothic-a1', 16, 400);
     letter-spacing: 1px;
     line-height: 1.2;
     margin: 0 0 $textGap;
@@ -34,7 +34,7 @@
 }
 
 .post-block-text {
-    @include text('sentinel', 16, 300);
+    @include text('merriweather', 16, 300);
     line-height: 1.9;
     margin: 0;
     max-width: 375px;
@@ -49,7 +49,7 @@
     }
 
     &.lg {
-        @include text('sentinel', 24);
+        @include text('merriweather', 24);
         line-height: 1.4;
         margin: 0 0 $textGap * 1.5;
     }

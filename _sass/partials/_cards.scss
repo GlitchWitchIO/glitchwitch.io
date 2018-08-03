@@ -97,7 +97,7 @@
 }
 
 .card-tagline {
-  @include text('trade-gothic', 12, 700, $botticelli);
+  @include text('gothic-a1', 12, 900, $botticelli);
   letter-spacing: 2px;
   line-height: 1.6;
   margin: 0;
@@ -111,7 +111,7 @@
 }
 
 .card-title {
-  @include text('trade-gothic', 18, 300, $charcoal);
+  @include text('gothic-a1', 18, 300, $charcoal);
   text-transform: uppercase;
   margin: 0 0 $textGap*0.75;
   opacity: 0;

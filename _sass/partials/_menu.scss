@@ -221,7 +221,7 @@ $menu-height: 50px;
 }
 
 .menu-link {
-  @include text('trade-gothic', 11, 600, $white-smoke);
+  @include text('gothic-a1', 10, 900, $white-smoke);
   align-items: center;
   border-bottom: 2px solid $night-rider;
   display: flex;

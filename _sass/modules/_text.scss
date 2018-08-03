@@ -3,36 +3,27 @@
 
 // IMPORT FONTS HERE
 
-// trade gothic
-@font-face {
-  font-family: 'Trade Gothic LT Std';
-  src: url('/assets/fonts/trade-gothic-lt-std.eot');
-  src:
-    url('/assets/fonts/trade-gothic-lt-std.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/trade-gothic-lt-std.woff2') format('woff2'),
-    url('/assets/fonts/trade-gothic-lt-std.woff') format('woff'),
-    url('/assets/fonts/trade-gothic-lt-std.ttf') format('truetype'),
-    url('/assets/fonts/trade-gothic-lt-std.svg#wf') format('svg');
-}
+// Gothic A1
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400,900');
 
 // source sans pro and roboto mono
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Roboto+Mono');
 
-@import url('/assets/fonts/sentinel.css');
-
+// Merriweather
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
 
 // FONT FAMILY VARIABLES (used for calling font)
 @mixin font-family($family) {
-  @if ($family == 'trade-gothic') {
-    font-family: 'Trade Gothic LT Std', sans-serif;
+  @if ($family == 'gothic-a1') {
+    font-family: 'Gothic A1', sans-serif;
   }
 
   @else if ($family == 'source-sans-pro') {
     font-family: 'Source Sans Pro', sans-serif;
   }
 
-  @else if ($family == 'sentinel') {
-    font-family: 'Sentinel A', 'Sentinel B', serif;
+  @else if ($family == 'merriweather') {
+    font-family: 'Merriweather', serif;
   }
 
   @else {

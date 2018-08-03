@@ -213,7 +213,7 @@ $stretch-teal: #00bdc1;
 }
 
 .subnav-item {
-  @include text('trade-gothic', 11, 400, $white);
+  @include text('gothic-a1', 11, 400, $white);
   align-items: center;
   display: flex;
   flex: 0 0 auto;

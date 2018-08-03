@@ -84,7 +84,7 @@
 }
 
 .post-header-title {
-    @include text('trade-gothic', 24, 600);
+    @include text('gothic-a1', 24, 900);
     letter-spacing: 3px;
     margin: 0;
     text-transform: uppercase;
@@ -107,22 +107,48 @@
 }
 
 .post-header-type {
-    @include text('sentinel', 18, 600);
+    @include text('merriweather', 16, 600);
     margin: 0 0 10px 0;
 }
 
+
+.post-header-credit {
+  position: absolute;
+  float: right;
+  bottom: 0;
+  right: 0;
+  @include text('merriweather', 10, 300);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white-smoke !important;
+  background: $jaguar;
+  padding: 4px;
+  line-height: 2.2;
+}
+
+.post-header-credit a {
+  @include text('merriweather', 10, 300);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white-smoke !important;
+}
+
+.post-header-credit a:hover {
+  color: #ccc !important;
+}
+
 .post-tags {
-    @include text('sentinel', 10, 300);
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $white-smoke !important;
-    background: $jaguar;
-    padding: 4px;
-    margin: 2px 4px 2px 0;
-    line-height: 2.2;
-    &.lg {
-      @include text('sentinel', 16, 300);
-    }
+  @include text('merriweather', 10, 300);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white-smoke !important;
+  background: $jaguar;
+  padding: 4px;
+  margin: 2px 4px 2px 0;
+  line-height: 2.2;
+  &.lg {
+    @include text('merriweather', 16, 300);
+  }
 }
 
 .post-tags:hover {
@@ -189,7 +215,7 @@
 }
 
 .post-breakdown-heading {
-    @include text('trade-gothic', 13, 600);
+    @include text('gothic-a1', 13, 600);
     letter-spacing: 2px;
     margin: 0 0 $textGap;
     text-transform: uppercase;
@@ -202,7 +228,7 @@
 
 .post-breakdown-detail,
 .post-breakdown-list-item {
-    @include text('sentinel', 15, 300);
+    @include text('merriweather', 15, 300);
     line-height: 1.9;
     margin: 0;
 }
@@ -230,7 +256,7 @@
 }
 
 .post-breakdown-footnote-text {
-    @include text('sentinel', 10, 300, $dark-gray);
+    @include text('merriweather', 10, 300, $dark-gray);
     font-style: italic;
     margin: 0;
 }

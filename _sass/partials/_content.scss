@@ -1,5 +1,5 @@
 .content-tagline {
-  @include text('trade-gothic', 18, 600, $charcoal);
+  @include text('gothic-a1', 18, 900, $charcoal);
   letter-spacing: 2px;
   margin: 0 0 $textGap*2;
   text-transform: uppercase;
@@ -12,7 +12,7 @@
 }
 
 .content-text {
-  @include text('sentinel', 24, 300, $regent-grey);
+  @include text('merriweather', 24, 300, $regent-grey);
   line-height: 1.4;
   margin: 0 0 $textGap*2;
   max-width: 450px;

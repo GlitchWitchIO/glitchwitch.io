@@ -9,6 +9,7 @@ layout: default
           <h6 class="post-header-type">{{ page.date | date: "%-d %b %Y" | upcase }} - {% include read_time.html %}</h6>
           <h6 class="post-header-type">{% for tag in page.tags %}<a class="post-tags" href="{{ site.url }}/tags/#{{ tag | replace:" ","-" }}">{{ tag }}</a>{% endfor %}</h6>
         </div>
+        {% if page.image.credit %}<span class="post-header-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
       </header>
 
       <section class="block column padded white-smoke">

@@ -36,7 +36,7 @@
 
     // Text
     &::after {
-      @include text('sentinel', 16, 300, $jaguar);
+      @include text('merriweather', 16, 300, $jaguar);
       content: attr(title);
       display: inline-flex;
       opacity: 0;
@@ -84,6 +84,6 @@
 }
 
 .comments-subtext {
-  @include text('sentinel', 18, 300, $charcoal);
+  @include text('merriweather', 18, 300, $charcoal);
   margin: -$textGap 0 $textGap*1.5;
 }

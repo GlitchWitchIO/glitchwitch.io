@@ -58,7 +58,7 @@
 }
 
 .post-referral-author {
-    @include text('sentinel', 18, 300);
+    @include text('merriweather', 18, 300);
 
     .centered & {
         text-align: center;

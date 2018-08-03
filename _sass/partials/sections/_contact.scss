@@ -26,20 +26,20 @@
 }
 
 .contact-title {
-  @include text('trade-gothic', 18, 700, $charcoal);
+  @include text('gothic-a1', 18, 900, $charcoal);
   letter-spacing: 2px;
   margin: 0 0 $textGap*1.5;
   text-transform: uppercase;
 }
 
 .contact-heading {
-  @include text('sentinel', 20, 300, $regent-grey);
+  @include text('merriweather', 20, 300, $regent-grey);
   font-style: italic;
   margin: $textGap*2 0 $textGap;
 }
 
 .contact-text {
-  @include text('sentinel', 14, 300, $charcoal);
+  @include text('merriweather', 14, 300, $charcoal);
   line-height: 2;
   margin: 0;
   max-width: 370px;
@@ -156,14 +156,14 @@
 }
 
 .contact-front-heading {
-  @include text('trade-gothic', 14, 600);
+  @include text('gothic-a1', 14, 900);
   letter-spacing: 3px;
   margin: 0;
   text-transform: uppercase;
 }
 
 .contact-front-title {
-  @include text('sentinel', 48, 300);
+  @include text('merriweather', 48, 300);
   letter-spacing: 0.5px;
   line-height: 1.1;
   margin: 0;
@@ -228,14 +228,14 @@
 }
 
 .contact-back-tagline {
-  @include text('trade-gothic', 14, 700);
+  @include text('gothic-a1', 14, 900);
   letter-spacing: 2px;
   margin: 0;
   text-transform: uppercase;
 }
 
 .contact-back-text {
-  @include text('sentinel', 18, 300);
+  @include text('merriweather', 18, 300);
   margin: 0;
 }
 
