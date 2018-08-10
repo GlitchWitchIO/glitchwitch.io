@@ -1,6 +1,6 @@
 - id: GW0007
   link:
-  type: ID
+  type: AFD
   type-long: Arbitrary File Deletion
   vendor: shaw.ca
   status: New
