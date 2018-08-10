@@ -1,3 +1,33 @@
+- id: GW0007
+  link:
+  type: ID
+  type-long: Arbitrary File Deletion
+  vendor: shaw.ca
+  status: New
+  date: 10 August 2018
+  date-patched:
+  date-published:
+
+- id: GW0006
+  link:
+  type: ID
+  type-long: Information Disclosure
+  vendor: shaw.ca
+  status: New
+  date: 10 August 2018
+  date-patched:
+  date-published:
+
+- id: GW0005
+  link:
+  type: ID
+  type-long: Information Disclosure
+  vendor: t-mobile.com
+  status: New
+  date: 10 August 2018
+  date-patched:
+  date-published:
+
 - id: GW0004
   link:
   type: ID
