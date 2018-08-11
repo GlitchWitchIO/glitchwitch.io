@@ -1,7 +1,7 @@
 ---
 layout: content
 title: "Vulnerability Reports"
-tagline: "Responsible Disclosure Policy &amp; Vulnerability Report List"
+tagline: "Disclosure Policy &amp; Vulnerability Report List"
 permalink: /reports/
 image:
   feature: blog/default-feature.jpg

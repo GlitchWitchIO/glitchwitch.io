@@ -1,7 +1,7 @@
 ---
 layout: content
 title: "About"
-tagline: "Information Security Researcher By Day. Spooky Hacker Girl By Night."
+tagline: "Information Security Researcher by day. Spooky Hacker Girl by night."
 permalink: /about/
 image:
   feature: blog/default-feature.jpg
