@@ -11,7 +11,7 @@ image:
 
 The following third party services may be used by glitchwitch.io and as such you may be bound to those privacy policies as well.
 
-[ProtonMail](https://protonmail.com/privacy-policy), [MailJet](https://www.mailjet.com/privacy-policy/), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
+[ProtonMail](https://protonmail.com/privacy-policy), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
 
 ## Voluntarily Submitted Information
 
@@ -19,7 +19,7 @@ glitchwitch.io may retain information you voluntarily submit. It is up to you wh
 
 ## Tracking and Analytics
 
-This website relies on CloudFlare for very basic DNS based traffic analytics. Emails sent from glitchwitch.io may include tracking code provided by MailJet because emails give me anxiety. Email open/click tracking can usually be blocked with third party software if you wish to opt-out of this.
+This website relies on CloudFlare for very basic DNS based traffic analytics. Emails sent from glitchwitch.io may include tracking pixels because emails give me anxiety. Email open/click tracking can usually be blocked with third party software if you wish to opt-out of this.
 
 ## Vulnerability Disclosure
 
