@@ -8,7 +8,7 @@ info2: "If you have a question related to a specific blog post, please use the c
 
 tagline3: "Email"
 text3: "Typical response time within 48 hours"
-pgp: 0x3A0D6192.asc
+pgp: 3A0D6192.asc
 
 tagline4: "Twitter"
 text4: "Typical response time within 24 hours"
