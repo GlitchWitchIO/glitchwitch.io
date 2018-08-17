@@ -23,10 +23,10 @@
   type: ID
   type-long: Information Disclosure
   vendor: t-mobile.com
-  status: New
+  status: Patched
   date: 10 August 2018
-  date-patched:
-  date-published:
+  date-patched: 17 August 2018
+  date-published: 17 August 2018
 
 - id: GW0004
   link:
