@@ -8,7 +8,7 @@ layout: default
           <h1 class="hero-title">Vulnerability Report for {{ report.vendor }}</h1>
           <p class="hero-text">
             {{ report.id }} - {{ report.type-long }} - {{ report.status }}
-            {% if report.cvss %}<br>CVSS3 Base Score: <strong>{{ report.cvss }}</strong> - {{ report.cvss-string }}{% endif %}
+            {% if report.cvss %}<br><small><span title="CVSS3 Base Score: {{ report.cvss }}">CVSS3: <strong>{{ report.cvss }}</span></strong> - {{ report.cvss-string }}</small>{% endif %}
           </p>
         </div>
       </header>
