@@ -19,5 +19,5 @@ Unless otherwise stated or agreed upon in written communication, a 45-day disclo
 The following list includes some of the findings by GlitchWitch.io since late 2017. All report dates are recorded in UTC.
 
 | --- | --- | :--- | --- |
-| ID | Type | Vendor | Status |{% for item in site.data.reports %}
-| <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GW000' | remove: 'GW00' | remove: 'GW0' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GW000' | remove: 'GW00' | remove: 'GW0' }}{% endif %}">{{ item.vendor }}</a> | {{ item.status }} |{% endfor %}
+| ID | Type | Vendor | CVSS3 | Status |{% for item in site.data.reports %}
+| <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GW000' | remove: 'GW00' | remove: 'GW0' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GW000' | remove: 'GW00' | remove: 'GW0' }}{% endif %}">{{ item.vendor }}</a> | {% if item.cvss %}{{ item.cvss }}{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}
