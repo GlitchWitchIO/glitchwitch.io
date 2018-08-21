@@ -1,15 +1,16 @@
 
 pre, code {
   font-family: Roboto Mono monospace;
-  color: #ccc;
+  color: #eee;
   font-size: 1.2rem;
-  background-color: #444;
+  background-color: #333;
 
 }
 code {
-  color: #ccc;
+  color: #eee;
   border-radius: 2px;
   white-space: nowrap;
+  padding: 1px;
 }
 
 
@@ -29,7 +30,7 @@ pre code {
   white-space: pre;
   overflow: auto;
   word-wrap: normal;
-  color: #ccc;
+  color: #eee;
   span {
     word-break: break-all;
   }
@@ -40,7 +41,7 @@ pre code {
     position: relative;
   }
   pre code {
-    color: #ccc;
+    color: #eee;
     &::before {
       content: attr(data-lang);
       position: absolute;
