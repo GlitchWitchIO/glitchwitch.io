@@ -52,10 +52,10 @@
   type-long: Remote Code Execution
   cvss: 9.8
   cvss-string: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-  vendor: CAAManitoba.com
-  status: New
+  vendor: caamanitoba.com
+  status: Patched
   date: 09 July 2018
-  date-patched:
+  date-patched: 20 August 2018
   date-published:
 
 - id: GW0001
@@ -64,7 +64,7 @@
   type-long: Information Disclosure
   cvss: 7.5
   cvss-string: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-  vendor: TextNow.com
+  vendor: textnow.com
   status: Patched
   date: 30 Sept 2017
   date-patched: 01 Oct 2017
