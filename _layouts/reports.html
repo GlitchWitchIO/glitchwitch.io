@@ -18,6 +18,8 @@ layout: default
           <div class="post-content">
             {% if report.date-published %}
               <p>This report was fully disclosed on {{ report.date-published | date: "%-d %B %Y" }}</p>
+            {% elsif report.date-patched %}
+              <p>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }}.</p>
             {% else %}
               <p>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }} or when the issue has been patched.</p>
             {% endif %}
