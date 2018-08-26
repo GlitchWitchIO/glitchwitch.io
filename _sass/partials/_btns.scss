@@ -44,6 +44,7 @@
 .btn-box-lg {
     @extend .btn-box;
     padding: #{$textGap*0.75 + (3px * 2)} #{$textGap*1.5 + (3px * 2)}; // (3px * 2) to account for inset box-shadow);
+    margin: 0 5px 10px 0;
 }
 
 .btn-text {
