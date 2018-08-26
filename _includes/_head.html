@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+{% assign report = site.data.reports | where: 'id', page.report-id %} {% assign report = report[0] %}     {% if page.title %} {% capture title %}{{ site.title }} - {{ page.title }}{% endcapture %}    {% elsif page.report-id %} {% capture title %}{{ site.title }} - {{ report.vendor }} Vulnerability Report {% endcapture %}    {% else %} {% capture title %}{{ site.title }}{% endcapture %} {% endif %}      {% if page.description %} {% capture description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}   {% elsif page.tagline %} {% capture description %}{{ page.tagline | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}  {% else %}    {% capture description %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {% endif %}     {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
 <head>
         <title>{{ title }}</title>
         <base href="{{ site.url }}/">
@@ -33,3 +33,6 @@
         <link rel="manifest" href="{{ site.url }}/assets/img/favicons/manifest.json">
         <link rel="mask-icon" href="{{ site.url }}/assets/img/favicons/safari-pinned-tab.png" color="#262628">
         <meta name="theme-color" content="#ffffff">
+
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml " | prepend: site.url }}" />
