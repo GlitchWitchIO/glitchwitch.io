@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<!--
+ ██████╗ ██╗     ██╗████████╗ ██████╗██╗  ██╗   ██╗    ██╗██╗████████╗ ██████╗██╗  ██╗         ██╗ ██████╗
+██╔════╝ ██║     ██║╚══██╔══╝██╔════╝██║  ██║   ██║    ██║██║╚══██╔══╝██╔════╝██║  ██║         ██║██╔═══██╗
+██║  ███╗██║     ██║   ██║   ██║     ███████║   ██║ █╗ ██║██║   ██║   ██║     ███████║         ██║██║   ██║
+██║   ██║██║     ██║   ██║   ██║     ██╔══██║   ██║███╗██║██║   ██║   ██║     ██╔══██║         ██║██║   ██║
+╚██████╔╝███████╗██║   ██║   ╚██████╗██║  ██║   ╚███╔███╔╝██║   ██║   ╚██████╗██║  ██║   ██╗   ██║╚██████╔╝
+ ╚═════╝ ╚══════╝╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝    ╚══╝╚══╝ ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝
+Jekyll Template: https://github.com/GlitchWitchIO/boldux - BoldUX - Thanks BraveUx ;)
+Privacy Policy: {{ site.url }}/privacy/ - All your data are belong to us
+Content License: {{ site.url }}/license/ - CC BY-NC-SA 4.0
+ -->
 {% assign report = site.data.reports | where: 'id', page.report-id %} {% assign report = report[0] %}
 
 {% if page.layout == 'reports' %}
