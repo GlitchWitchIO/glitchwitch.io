@@ -15,7 +15,7 @@ image:
 
 Recently I wanted to run a resource intensive windows program but didn't really have the hardware or bandwidth to support it.
 
-I started doing some digging into installing windows on digital ocean as it seemed cheaper than putting credits into a proper windows vps host.
+I started doing some digging into installing Windows on DigitalOcean as it seemed cheaper than putting credits into a proper Windows VPS host.
 
 Search results for "Windows on Digital Ocean" primarily show a [paywalled blog post on whatuptime.com](https://www.whatuptime.com/installing-microsoft-windows-onto-digitalocean-droplet/), a [leaked copy of that guide](https://milankragujevic.com/how-to-install-windows-10-on-digitalocean) and [similar](https://joodle.nl/install-windows-10-creators-update-on-kimsufi-soyoustart-ovh-and-online-net/) [guides](http://windowstemplate.com/2017/03/22/windows-10-pro/) with pre-compiled images of dubious origin and trustworthiness.
 
@@ -36,16 +36,16 @@ As such I went with route 1, which took about 3 hours to get up and running on m
 
 ---
 ## Table of Contents
-- 1 [Summary](#summary)
-- 2 [Preparation](#preparation)
-  - 2.1 [Build environment](#build-environment)
-  - 2.2 [Windows ISO](#windows-iso)
-- 3 [Windows Installation](#windows-installation)
-  - 3.1 [Drivers](#drivers)
-  - 3.2 [Disk Transfer](#disk-transfer)
-  - 3.3 [The Basics](#the-basics)
-  - 3.4 [Network Settings](#network-settings)
-  - 3.5 [Remote Desktop](#remote-desktop)
+- 1 [Summary](/blog/2018-09/windows-10-on-digitalocean#summary)
+- 2 [Preparation](/blog/2018-09/windows-10-on-digitalocean#preparation)
+  - 2.1 [Build environment](/blog/2018-09/windows-10-on-digitalocean#build-environment)
+  - 2.2 [Windows ISO](/blog/2018-09/windows-10-on-digitalocean#windows-iso)
+- 3 [Windows Installation](/blog/2018-09/windows-10-on-digitalocean#windows-installation)
+  - 3.1 [Drivers](/blog/2018-09/windows-10-on-digitalocean#drivers)
+  - 3.2 [Disk Transfer](/blog/2018-09/windows-10-on-digitalocean#disk-transfer)
+  - 3.3 [The Basics](/blog/2018-09/windows-10-on-digitalocean#the-basics)
+  - 3.4 [Network Settings](/blog/2018-09/windows-10-on-digitalocean#network-settings)
+  - 3.5 [Remote Desktop](/blog/2018-09/windows-10-on-digitalocean#remote-desktop)
 
 ## Summary
 
