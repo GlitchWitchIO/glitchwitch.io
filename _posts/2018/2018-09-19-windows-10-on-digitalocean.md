@@ -12,27 +12,17 @@ image:
   credit:
   creditlink:
 ---
-
-Recently I wanted to run a resource intensive windows program but didn't really have the hardware or bandwidth to support it.
+Recently I wanted to run a resource intensive Windows program but didn't really have the hardware or bandwidth to support it.
 
 I started doing some digging into installing Windows on DigitalOcean as it seemed cheaper than putting credits into a proper Windows VPS host.
 
 Search results for "Windows on Digital Ocean" primarily show a [paywalled blog post on whatuptime.com](https://www.whatuptime.com/installing-microsoft-windows-onto-digitalocean-droplet/), a [leaked copy of that guide](https://milankragujevic.com/how-to-install-windows-10-on-digitalocean) and [similar](https://joodle.nl/install-windows-10-creators-update-on-kimsufi-soyoustart-ovh-and-online-net/) [guides](http://windowstemplate.com/2017/03/22/windows-10-pro/) with pre-compiled images of dubious origin and trustworthiness.
 
-While at least one of these guides seemed to work, I wanted to be able to compile the latest version of windows myself using images downloaded directly from Microsoft and forgo the potential security (and legal) nightmares that could come from running Windows from an unofficial source.
+While at least one of these guides seemed to work, I wanted to be able to compile the latest version of Windows myself using images downloaded directly from Microsoft and forgo the potential security (and legal) nightmares that could come from running Windows from an unofficial source.
 
+Initially I tried to download the official Windows [Virtual Machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/), convert them to raw format using `qemu-img`, and dd them to the droplet. This however did not work for various reasons, most notably these images do not include the required drivers.
 
-## Brainstorming
-
-Initially I could see two routes to accomplish this.
-
-Route 1 would include downloading the official [windows 10 iso](https://www.microsoft.com/en-us/software-download/windows10ISO), installing it in virtualbox or proxmox, booting a linux live cd and dd'ing the freshly installed windows image onto the VPS.
-
-Route 2 would include downloading the official [Virtual Machine images](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/), converting them to raw disk images with qemu-img and dd'ing them directly into the VPS.
-
-I spent about 6 hours on the second option, thinking it would be quick and easy. I attempted every VM provided by Microsoft to no avail. Later I realized this was in part due to the lack of VirtIO drivers included.
-
-As such I went with route 1, which took about 3 hours to get up and running on my first go, all while documenting my steps.
+After some research and trial-and-error I was able to successfully create a VM image that worked on any-size droplet using the Windows ISO, VirtIO Drivers, and QEMU emulation. The following guide will walk you through the process I used so that you can make your own image and flash it to a DigitalOcean Droplet.
 
 ---
 ## Table of Contents
@@ -58,7 +48,7 @@ If you don't already have a DigitalOcean account, you can use my referral code a
 
 First create two droplets, in this example I created two 2GB instance named `imageserver` and `windows` respectively.
 
-We will use `imageserver` temporarily to build and host the windows installation files. As such it will be deleted at the end.
+We will use `imageserver` temporarily to build and host the Windows installation files. As such it will be deleted at the end.
 
 `windows` will be where our Windows installation will eventually live. This droplet can be any size.
 
@@ -141,7 +131,7 @@ sudo apt-get install xtightvncviewer
 vncviewer imageserver
 ```
 
-After connecting the vnc server we should see the Windows language selection screen.
+After connecting to the VNC server we should see the Windows language selection screen.
 
 ![](/assets/img/blog/6/vnc-1.png)
 
@@ -153,7 +143,7 @@ _Hot tip: you can use the tab, enter and arrow keys to navigate the entire insta
 ## Drivers
 *Now for the important bits!*
 
-First select `Custom: Install Windows only (advanced)`
+First select `Custom: Install Windows only (advanced)`.
 
 ![](/assets/img/blog/6/vnc-2.png)
 
@@ -165,18 +155,18 @@ Then select `Load driver` then click `browse`.
 
 ---
 
-You'll want to scroll down to `CD Drive (E:) virtio-win-0.1.1`
+You'll want to scroll down to `CD Drive (E:) virtio-win-0.1.1`.
 
-Now we can select the Network driver, which can be found in `E:\NetKvm\w10\amd64`
+Now we can select the Network driver, which can be found in `E:\NetKvm\w10\amd64`.
 
-We will also need to uncheck `Hide drivers that aren't compatible with this computer's hardware` then select the first option `Red Hat VirtIO Ethernet Adapter` and `next`
+We will also need to uncheck `Hide drivers that aren't compatible with this computer's hardware` then select the first option `Red Hat VirtIO Ethernet Adapter` and `next`.
 
 ![](/assets/img/blog/6/vnc-network-adapter.png)
 
 
 Now we need to repeat this process again selecting `Load driver`, `browse` and scrolling down to `CD Drive (E:) virtio-win-0.1.1`.
 
-This time we need to select `E:\viostor\w10\amd64` and install the "Red Hat VirtIO SCSI controller"
+This time we need to select `E:\viostor\w10\amd64` and install the `Red Hat VirtIO SCSI controller`.
 
 ---
 
@@ -275,13 +265,13 @@ Saving to: ‘STDOUT’
 
 Once the copy is complete we can run `shutdown 0` and go back to the recovery page on the digital ocean dashboard. We then select `Boot from Hard Drive` and power the droplet back on.
 
-We should now be able to press the `console` button in the top right to complete our windows installation.
+We should now be able to press the `console` button in the top right to complete our Windows installation.
 
 
 ## The Basics
 ![](/assets/img/blog/6/windows-region-totalsuccess.png)
 
-At this point we a have a mostly functional windows install. We just need to complete the initial setup, configure the network settings and enable remote desktop.
+At this point we a have a mostly functional Windows install. We just need to complete the initial setup, configure the network settings and enable remote desktop.
 
 Go ahead and fill in the basics, choosing `do this later` when you get to network settings, and put special care (or better yet random generation) into choosing a secure password.
 
