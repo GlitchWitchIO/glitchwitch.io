@@ -14,9 +14,9 @@ Content License: {{ site.url }}/license/ - CC BY-NC-SA 4.0
 {% assign report = site.data.reports | where: 'id', page.report-id %} {% assign report = report[0] %}
 
 {% if page.layout == 'reports' %}
-  {% capture title %}{{ site.title }} - {{ report.vendor }} Vulnerability Report {% endcapture %}
+  {% capture title %}{{ report.vendor }} Vulnerability Report - {{ site.title }}{% endcapture %}
 {% elsif page.title %}
-  {% capture title %}{{ site.title }} - {{ page.title }}{% endcapture %}
+  {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
 {% else %}
   {% capture title %}{{ site.title }}{% endcapture %} {% endif %}
 
