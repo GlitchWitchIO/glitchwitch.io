@@ -5,10 +5,10 @@
   cvss: 8.1
   cvss-string: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H
   vendor: shaw.ca
-  status: New
+  status: Patched
   date: 10 August 2018
-  date-patched:
-  date-published:
+  date-patched: 23 September 2018
+  date-published: 23 September 2018
 
 - id: GW0006
   link:
@@ -17,10 +17,10 @@
   cvss: 4.3
   cvss-string: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
   vendor: shaw.ca
-  status: New
+  status: Patched
   date: 10 August 2018
-  date-patched:
-  date-published:
+  date-patched: 23 September 2018
+  date-published: 23 September 2018
 
 - id: GW0005
   link:
