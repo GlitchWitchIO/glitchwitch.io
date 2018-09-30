@@ -179,20 +179,6 @@ function scrollReveal() {
     })
 }
 
-function contactCardFlip() {
-    if ($("body").find(".contact-letter").length && !isIE()) {
-        var t = $(".contact-letter");
-        t.on("click", function() {
-            t.toggleClass("is-flipped")
-        }), new Waypoint({
-            element: t,
-            handler: function(e) {
-                "down" == e && t.addClass("is-flipped")
-            },
-            offset: "25%"
-        })
-    }
-}
 
 function videoPlay() {
     $("video").each(function(t, e) {
@@ -215,13 +201,6 @@ function imageRatio() {
             n = (this.dataset.height / this.dataset.width * e).toFixed(2);
         n >= 0 && t.css("padding-bottom", n + "%").removeAttr("data-height data-width")
     })
-}
-
-function navCurrent() {
-    var t = window.location.href.split("/"),
-        e = t[t.length - 1],
-        n = $('.subnav-item[href*="' + e + '"]');
-    $("body").find(".subnav").length && n.addClass("is-active")
 }
 
 function introAnimate() {
@@ -741,7 +720,7 @@ function(t, e) {
         return y
     }
 }), $(document).ready(function() {
-    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), contactCardFlip(), videoPlay(), navCurrent(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchIO/glitchwitch.io")
+    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), videoPlay(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchIO/glitchwitch.io")
 }), $("video").length && $(window).on("scroll", _.throttle(function() {
     Waypoint.refreshAll()
 }, 1e3)), $(".subnav-scroll-indicator--left").on("click", function(t) {
