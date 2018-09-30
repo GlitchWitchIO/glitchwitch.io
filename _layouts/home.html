@@ -14,7 +14,10 @@
       <div class="row">
         <div class="column container align-left">
           <p class="hero-tagline">{{ page.tagline }}</p>
-          <p class="hero-title">{{ page.text }}</p>
+          <div id="typed-strings">
+            <p class="hero-title">{{ page.text }}</p>
+          </div>
+          <p class="hero-title typed"></p>
           <p class="hero-text"><a href="{{ site.url }}/blog/" class="btn btn-box-lg alt">View blog</a>
           <a href="{{ site.url }}/reports/" class="btn btn-box-lg alt">View reports</a></p>
         </div>
@@ -39,7 +42,8 @@
       {% include _footer.html %}
     </main>
 
-    {% include _footer-scripts.html %}
+{% include _footer-scripts.html %}
+<script>var typed=new Typed('.typed',{stringsElement:'#typed-strings',typeSpeed:15});</script>
 
 </body>
 
