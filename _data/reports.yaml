@@ -1,3 +1,15 @@
+- id: GW0008
+  link:
+  type: NA
+  type-long: Not Avaliable
+  cvss: N/A
+  cvss-string: Not Avaliable
+  vendor: winnipeg.ca
+  status: New
+  date: 01 October 2018
+  date-patched:
+  date-published:
+
 - id: GW0007
   link:
   type: AFD
