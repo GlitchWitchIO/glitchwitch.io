@@ -11,8 +11,14 @@ url: https://glitchwitch.io
 sass:
     sass_dir: _sass
 
-include: ['_pages']
-include: ['_reports']
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  reports:
+    output: true
+    permalink: /:path
+    
 #
 ###################################
 # Jekyll configuration
