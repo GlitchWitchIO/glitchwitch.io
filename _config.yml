@@ -12,6 +12,9 @@ sass:
     sass_dir: _sass
 
 collections:
+  posts:
+    output: true
+    permalink: /blog/:year-:month/:title/
   pages:
     output: true
     permalink: /:path
@@ -28,7 +31,7 @@ timezone:          UTC
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /blog/:year-:month/:title
+permalink:         /blog/:year-:month/:title/
 
 kramdown:
   auto_ids: true
