@@ -21,8 +21,8 @@
 }
 
 .hero-tagline {
-  @include text('gothic-a1', 17, 900, $charcoal);
-  letter-spacing: 2px;
+  @include text('gothic-a1', 56, 900, $charcoal);
+  letter-spacing: 5px;
   margin: 0 0 $textGap*2;
   text-transform: uppercase;
 

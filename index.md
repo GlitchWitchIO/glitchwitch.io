@@ -1,7 +1,7 @@
 ---
 layout: home
 title:
-tagline: "GlitchWitch - Information Security Researcher"
+tagline: "GlitchWitch"
 text: "Independent Security Researcher, <br>Penetration Tester, and Bug Hunter."
 tagline2: "Whoami"
 text2: "Learn more about me<br>and the services I can provide."
