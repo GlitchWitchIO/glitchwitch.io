@@ -1,4 +1,4 @@
-- id: GW0008
+- id: GWA-2018-008
   link:
   type: NA
   type-long: Not Avaliable
@@ -10,7 +10,7 @@
   date-patched:
   date-published:
 
-- id: GW0007
+- id: GWA-2018-007
   link:
   type: AFD
   type-long: Arbitrary File Deletion
@@ -22,7 +22,7 @@
   date-patched: 23 September 2018
   date-published: 23 September 2018
 
-- id: GW0006
+- id: GWA-2018-006
   link:
   type: ID
   type-long: Information Disclosure
@@ -34,7 +34,7 @@
   date-patched: 23 September 2018
   date-published: 23 September 2018
 
-- id: GW0005
+- id: GWA-2018-005
   link:
   type: ID
   type-long: Information Disclosure
@@ -46,7 +46,7 @@
   date-patched: 17 August 2018
   date-published: 17 August 2018
 
-- id: GW0004
+- id: GWA-2018-004
   link:
   type: ID
   type-long: Information Disclosure
@@ -58,7 +58,7 @@
   date-patched: 18 July 2018
   date-published: 29 July 2018
 
-- id: GW0003
+- id: GWA-2018-003
   link:
   type: RCE
   type-long: Remote Code Execution
@@ -70,7 +70,7 @@
   date-patched: 20 August 2018
   date-published: 23 August 2018
 
-- id: GW0001
+- id: GWA-2018-001
   link: /blog/2018-02/textnow-security-update
   type: ID
   type-long: Information Disclosure
