@@ -2,11 +2,11 @@
 layout: home
 title:
 tagline: "GlitchWitch"
-text: "Independent Security Researcher, <br>Penetration Tester, and Bug Hunter."
+text: "Information Security Researcher, <br>Penetration Tester, and Bug Hunter."
 tagline2: "Whoami"
 text2: "Learn more about me<br>and the services I can provide."
 permalink: /
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature:
+  hero:
 ---

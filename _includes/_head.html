@@ -44,14 +44,14 @@ Content License: {{ site.url }}/license/ - CC BY-NC-SA 4.0
         <meta name="twitter:title" content="{{ title }}">
         {% if site.owner.twitter %}<meta name="twitter:creator" content="@{{ site.owner.twitter }}" />{% endif %}
         <meta name="twitter:description" content="{{ description }}">
-        <meta name="twitter:image" content={% if page.image.hero contains 'https' or page.image.hero contains 'http' %}"{{ page.image.hero }}"{% else %}"{{ site.url }}/assets/img/{{ page.image.hero }}"{% endif %}>
+        <meta name="twitter:image" content={% if page.image.hero %}"{{ site.url }}/assets/img/{{ page.image.hero }}"{% else %}"{{ site.url }}/assets/img/blog/default-social.jpg"{% endif %}>
 
         <!-- Open Graph Tags -->
         <meta property="og:type" content="blog">
         <meta property="og:url" content="{{ site.url }}">
         <meta property="og:title" content="{{ title }}">
         <meta property="og:description" content="{{ description }}">
-        <meta property="og:image" content={% if page.image.hero contains 'https' or page.image.hero contains 'http' %}"{{ page.image.hero }}"{% else %}"{{ site.url }}/assets/img/{{ page.image.hero }}"{% endif %}>
+        <meta property="og:image" content={% if page.image.hero %}"{{ site.url }}/assets/img/{{ page.image.hero }}"{% else %}"{{ site.url }}/assets/img/blog/default-social.jpg"{% endif %}>
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/img/favicons/apple-touch-icon.png">

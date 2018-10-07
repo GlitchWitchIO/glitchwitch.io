@@ -4,8 +4,8 @@ title: "About"
 tagline: "Information Security Researcher by day. Spooky Hacker Girl by night."
 permalink: /about/
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature:
+  hero: 
 ---
 ## Who is GlitchWitch?
 

@@ -4,8 +4,8 @@ title: "License"
 tagline: "Original content licensed under CC BY-NC-SA 4.0."
 permalink: /license/
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature: 
+  hero: 
 ---
 
 All original content of glitchwitch.io, including but not limited to any and all text, images, and photographs in the articles and pages, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).

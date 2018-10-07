@@ -4,8 +4,8 @@ title: "Vulnerability Reports"
 tagline: "Disclosure Policy &amp; Vulnerability Report List"
 permalink: /reports/
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature: 
+  hero: 
 ---
 ## What is Responsible Disclosure?
 Responsible disclosure is a vulnerability disclosure model in which a vulnerability is disclosed after a period of time or once the vulnerability is patched. You can read more about this at [BugCrowd: What is Responsible Disclosure?](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)

@@ -4,8 +4,8 @@ title: "Privacy Policy"
 tagline: "By interacting with this domain (glitchwitch.io) over any protocol or service you are agreeing to the following Privacy Policy."
 permalink: /privacy/
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature: 
+  hero: 
 ---
 ## Third Party Services
 

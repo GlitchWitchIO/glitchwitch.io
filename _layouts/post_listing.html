@@ -25,7 +25,7 @@ layout: default
                 <div class="card-image-box violet">
                   {% if post.image.feature %}
                   <div class="card-image">
-                    <img data-normal={% if post.image.feature contains 'http' %} "{{ post.image.feature }}" {% else %} "{{ site.url }}/assets/img/{{ post.image.feature }}"{% endif %} alt="{{ post.title }} feature image" class="inner-block-image absolute contain">
+                    <img data-normal="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }} feature image" class="inner-block-image absolute contain">
                   </div>
                   {% endif %}
                 </div>

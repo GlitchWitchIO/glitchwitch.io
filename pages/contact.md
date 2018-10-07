@@ -16,6 +16,6 @@ text4: "Typical response time within 24 hours"
 
 permalink: /contact/
 image:
-  feature: blog/default-feature.jpg
-  hero: blog/default-header.jpg
+  feature: 
+  hero: 
 ---
