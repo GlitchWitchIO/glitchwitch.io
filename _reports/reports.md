@@ -16,8 +16,8 @@ Unless otherwise stated or agreed upon in written communication, a 45-day disclo
 
 ## Report List
 
-The following list includes some of the findings by GlitchWitch.io since late 2017. All report dates are recorded in UTC.
+The following list includes some of the findings by GlitchWitch.io. Reports are assigned a unique "Glitch Witch Advisory" number for reference. All dates are recorded in UTC.
 
 | --- | --- | :--- | --- |
 | ID | Type | Vendor | CVSS3 | Status |{% for item in site.data.reports %}
-| <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' | remove: 'GW00' | remove: 'GW0' }}{% endif %}/">{{ item.vendor }}</a> | {% if item.cvss %}<span title="{{item.cvss-string}}">{{ item.cvss }}</span>{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}
+| <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}/">{{ item.vendor }}</a> | {% if item.cvss %}<span title="{{item.cvss-string}}">{{ item.cvss }}</span>{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}
