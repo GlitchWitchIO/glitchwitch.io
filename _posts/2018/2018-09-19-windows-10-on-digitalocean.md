@@ -9,8 +9,8 @@ comments: true
 image:
   feature: blog/6/feature.jpg
   hero: blog/6/header.jpg
-  credit:
-  creditlink:
+  credit: Ilkka Koivula
+  creditlink: https://pixabay.com/en/water-flowing-spatter-flowing-water-2130047/
 ---
 Recently I wanted to run a resource intensive Windows program but didn't really have the hardware or bandwidth to support it.
 
