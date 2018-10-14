@@ -2,7 +2,7 @@
 layout: default
 ---
     <main class="wrapper">
-      <header class="hero">
+      <header class="hero" {% if page.image.hero %} style="background: url('{{ site.url }}/assets/img/{{ page.image.hero }}') 20% center/cover no-repeat !important;"{% endif %}>
         <div class="container">
           <h1 class="hero-title">{{ page.title }}</h1>
           <p class="hero-text">

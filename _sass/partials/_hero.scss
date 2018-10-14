@@ -1,6 +1,7 @@
 .hero {
   align-items: center;
   display: flex;
+  background-color: $jaguar;
   padding: calc(6em + 50px) 0 $gridGap*1.5; // 50px top for menu
   width: 100%;
 }
@@ -32,7 +33,7 @@
 }
 
 .hero-title {
-  @include text('source-sans-pro', 36, 300, $night-rider);
+  @include text('source-sans-pro', 36, 300, $white-smoke);
   margin: 0 0 $textGap;
   max-width: 1000px;
 
@@ -51,7 +52,7 @@
 }
 
 .hero-text {
-  @include text('merriweather', 18, 300, $charcoal);
+  @include text('merriweather', 18, 300, $white-smoke);
   line-height: 1.4;
   margin: 0;
   max-width: 800px;
