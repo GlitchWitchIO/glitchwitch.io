@@ -236,8 +236,6 @@ $menu-height: 50px;
 
   @include media('>=md') {
     border-bottom: 0;
-    border-right: 1px solid $night-rider;
-    transition: border-right 300ms;
     width: auto;
   }
 
