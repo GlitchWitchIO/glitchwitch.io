@@ -11,7 +11,7 @@ image:
 
 The following third party services may be used by glitchwitch.io and as such you may be bound to those privacy policies as well.
 
-[ProtonMail](https://protonmail.com/privacy-policy), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
+[ProtonMail](https://protonmail.com/privacy-policy), [Formspree](http://docs.formspree.io/files/privacy.pdf), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
 
 ## Voluntarily Submitted Information
 
