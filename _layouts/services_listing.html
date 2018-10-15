@@ -1,0 +1,54 @@
+---
+layout: default
+---
+    <main class="wrapper">
+      <header class="hero white">
+        <div class="container">
+          <h1 class="hero-title">{{ page.title }}</h1>
+          <p class="hero-text">{{ page.tagline }}</p>
+        </div>
+      </header>
+      <section class="block column white-smoke">
+        <div class="container">
+          <div class="post-content">{{ content }}</div>
+        </div>
+      </section>
+      <section class="block padded white-smoke">
+        <div class="container">
+          <noscript>
+            <div class="post-content">
+              <p>This page requires JavaScript to be displayed properly.</p>
+            </div>
+          </noscript>
+          <div class="card-container">
+            {% for item in site.data.services %}
+            <!-- Post Card -->
+            <div class="card services">
+              <a href="{{ page.url }}#{{ item.title | replace: ' ', '-' | downcase }}" class="card-box">
+                <div class="card-image-box violet">
+                  {% if item.image %}
+                  <div class="card-image">
+                    <img data-normal="{{ site.url }}/assets/img/{{ item.image }}" alt="{{ item.title }} feature image" class="inner-block-image absolute contain">
+                  </div>
+                  {% endif %}
+                </div>
+                <div class="card-content">
+                  <p class="card-title">{{ item.title }}</p>
+                  {% if item.description %}
+                  <p class="card-tagline">{{ item.description | strip_html | strip_newlines | truncate: 120 }}</p>{% endif %}
+                  <p class="btn btn-box">Learn more</p>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% for item in site.data.services %}
+      <section class="block column white-smoke">
+        <div class="container">
+          <div class="post-content"><h2 id="{{ item.title | replace: ' ', '-' | downcase }}">{{ item.title }}</h2>{{ item.content | markdownify }}</div>
+        </div>
+      </section>
+      {% endfor %}
+      {% include sections/cta-services.html %}

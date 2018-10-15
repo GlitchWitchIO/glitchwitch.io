@@ -4,8 +4,11 @@
 - title: Blog
   url: /blog/
 
-- title: Contact
-  url: /contact/
-
 - title: Reports
   url: /reports/
+
+- title: Services
+  url: /services/
+
+- title: Contact
+  url: /contact/
