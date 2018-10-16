@@ -1,19 +1,19 @@
 - title: Penetration Testing Services
-  description: Simulate real-world attack scenarios to evaluate your risk.
+  description: Simulate real-world attack scenarios to evaluate your risk
   image: sections/services/pentesting-feature.jpg
   content: "Get a real-world look at how attackers could exploit your vulnerabilities and advice on how to stop them. Get insights from a combination of automated vulnerability assessment tools and manual testing following the Open Web Application Security Project [(OWASP) Testing Guide](https://www.owasp.org/index.php/OWASP_Testing_Project), [OWASP Mobile Security Testing Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide), and an independently formed set of methodologies."
 
 - title: Vulnerability Assessments
-  description: Identify and prioritize vulnerabilities in your infrastructure.
+  description: Identify and prioritize vulnerabilities in your infrastructure
   image: sections/services/assessment-feature.jpg
-  content: "Quickly identify and prioritize vulnerabilities in your infrastructure. Get a detailed information from a wide range of open source and proprietary automated scanning tools, all manually verified and prioritized to help you remedy issues that impact your business."
+  content: "Quickly identify and prioritize vulnerabilities in your infrastructure. Get detailed information from a wide range of open source and proprietary automated scanning tools, all manually verified and prioritized to help you remedy issues that impact your business."
 
 - title: Information Security Advisory
-  description: Prioritize your security initiatives and gain insight.
+  description: Prioritize your security initiatives and gain insight
   image: sections/services/advice-feature.jpg
   content: "Prioritize your security initiatives and gain business-critical insight into your security practices. With over a decade of experience working within a wide range of industries, GlitchWitch can help you identify, prioritize, and execute your information security goals."
 
 - title: Managed Security Programs
-  description: Implement bug bounties and vulnerability disclosure policies.
+  description: Implement bug bounties and vulnerability disclosure policies
   image: sections/services/managed-feature.jpg
   content: "Implement bug bounty and vulnerability disclosure programs and get actionable results that your team can work with. Let GlitchWitch handle your security program to help verify researcher findings, prioritize vulnerabilities, and coordinate communication and logistics."
