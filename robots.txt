@@ -10,3 +10,4 @@ User-agent: *
 Disallow:
 Disallow: /about/
 Disallow: /contact/
+Disallow: /contact-thanks/
