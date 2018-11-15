@@ -10,7 +10,7 @@ image:
   hero: blog/2/header.jpg
   credit: Someone at Microsoft
   creditlink: https://minecraft.net/
-tags: [ctf, hackthebox, labs, notes]
+tags: [ctf, notes]
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ layout: post
 title:  "Windows 10 On DigitalOcean"
 tagline: "Build a Windows Droplet From Scratch"
 description: "A guide to running Windows 10 on DigitalOcean using your own disk image."
-tags: [notes, digitalocean, virtualization, qemu, windows]
+tags: [notes, windows]
 date:   2018-09-19
 comments: true
 image:
