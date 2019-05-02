@@ -12,7 +12,7 @@ Responsible disclosure is a vulnerability disclosure model in which a vulnerabil
 
 ## Disclosure Policy
 
-Unless otherwise stated or agreed upon in written communication, a 45-day disclosure deadline will apply to all bugs and vulnerabilities found by glitchwitch.io research. All findings will be disclosed to the public once either a patch has been made broadly available or after 45 days from the initial report, regardless of the existence or availability of patches or workarounds. Extenuating circumstances, such as active exploitation, threats of an especially serious (or trivial) nature, or situations that require changes to an established standard may result in earlier or later disclosure.
+Unless otherwise stated or agreed upon in written communication, a 45-day disclosure deadline will apply to all bugs and vulnerabilities found by glitchwitch.io research. All findings will be disclosed to the public once either a patch has been made broadly available or after 45 days from the initial report, regardless of the existence or availability of patches or workarounds. Extenuating circumstances, such as active exploitation, threats of an especially serious (or trivial) nature, or situations that require changes to an established standard may result in earlier or later disclosure. This disclosure policy is based on the [CERT Coordination Center (CERT/CC) Vulnerability Disclosure Policy.](https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy)
 
 ## Report List
 

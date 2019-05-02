@@ -70,6 +70,18 @@
   date-patched: 20 August 2018
   date-published: 23 August 2018
 
+- id: GWA-2018-002
+  link:
+  type: NA
+  type-long: Not Avaliable
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed party
+  status: Patched
+  date: 19 May 2018
+  date-patched: 30 May 2018
+  date-published:
+
 - id: GWA-2018-001
   link: /blog/2018-02/textnow-security-update
   type: ID
