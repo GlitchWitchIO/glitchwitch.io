@@ -1,5 +1,5 @@
 # [GlitchWitch.io](https://glitchwitch.io/)
-## I'm a spooky hacker girl, this is my blog.
+## I'm an information security researcher, this is my website.
 
 Built with [Jekyll](https://github.com/jekyll/jekyll). Design forked from [BoldUX](https://github.com/glitchwitchio/boldux)
 
