@@ -1,0 +1,152 @@
+.services-panel {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin: 0 -#{$gridGap} -#{$gridGap} 0;
+
+  @include media('>=sm') {
+    flex-flow: row wrap;
+  }
+  //
+  // @include media('>=xl') {
+  //   justify-content: space-between;
+  // }
+}
+
+.services-panel-image {
+  height: 30px;
+  margin-bottom: $gridGap;
+  padding: 0 $gridGap 0 0;
+  transition: opacity 300ms ease;
+  width: auto;
+}
+
+.services-card {
+  @include media('>=lg') {
+    flex: 0 0 25%;
+    max-width: 33.3333%;
+    .card-content {
+      padding: 1.5em;
+    }
+  }
+  .btn {
+    margin-top: 2em;
+  }
+}
+
+// REFERRAL
+.case-referral-blockquote {
+    @include text('source-sans-pro', 45, 300);
+    line-height: 1.15;
+    margin: 0 20px; // accounts for ::before
+    position: relative;
+    quotes: '“' '”' '‘' '’'; // shortcodes do not work, must be string
+
+    @include media('>=md') {
+        margin: 0;
+    }
+
+    &::before {
+        content: open-quote;
+        left: -20px;
+        position: absolute;
+        top: 0;
+    }
+
+    &::after {
+        content: close-quote;
+        margin-left: 5px;
+    }
+}
+
+.case-referral-quote-icon {
+    // color and svg import in '_case-colors.scss'
+    margin: 0 0 $textGap * 2;
+
+    .centered & {
+        margin: 0 auto $textGap * 2;
+    }
+}
+
+.case-referral-text {
+    @include text('source-sans-pro', 20, 300);
+    line-height: 2;
+    margin: 0 0 $textGap * 2;
+
+    .centered & {
+        @include text('source-sans-pro', 35, 300);
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    + .case-referral-text {
+        margin: -$textGap 0 $textGap * 2;
+    }
+    &::before {
+      @include text('source-sans-pro', 45, 300);
+      line-height: 1.15;
+      margin-top: 85px; // accounts for ::before
+      position: relative;
+      quotes: '“' '”' '‘' '’'; // shortcodes do not work, must be string
+        content: open-quote;
+        left: -20px;
+        position: absolute;
+        top: 0;
+    }
+
+    &::after {
+      @include text('source-sans-pro', 45, 300);
+      line-height: 1.15;
+      margin: 0 0px; // accounts for ::before
+      position: absolute;
+      quotes: '“' '”' '‘' '’'; // shortcodes do not work, must be string
+        content: close-quote;
+        margin-left: 5px;
+    }
+}
+
+.case-referral-author {
+    @include text('Merriweather', 16, 300);
+
+    .centered & {
+        text-align: center;
+}
+
+    // case-study color variables
+    $light-blue: #4fb8b5;
+    $blue: #3cb0bf;
+    $dark-blue: #2a3039;
+    $gray: #fff8f3;
+
+    // case study colors
+    .gradient,
+    .dark-blue {
+        color: $white-smoke;
+    }
+
+    .dark-blue {
+        background-color: $dark-blue;
+    }
+
+    .gray {
+        background-color: $gray;
+    }
+
+    .gradient {
+        background-image: linear-gradient(to right, $light-blue, $blue);
+    }
+
+    .case-header-content {
+        color: $jaguar;
+    }
+
+    .case-header-client-name {
+        color: #666;
+    }
+
+    // quote icon color
+    .case-referral-quote-icon {
+        @include icon-quote($jaguar);
+    }
+}
