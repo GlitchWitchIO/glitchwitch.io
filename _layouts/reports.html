@@ -22,11 +22,11 @@ layout: default
         <div class="container">
           <div class="post-content">
             {% if report.date-published %}
-              <p>This report was fully disclosed on {{ report.date-published | date: "%-d %B %Y" }}</p>
+              <p><em>This report was fully disclosed on {{ report.date-published | date: "%-d %B %Y" }}</em></p>
             {% elsif report.date-patched %}
-              <p>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }}.</p>
+              <p><em>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }}.</em></p>
             {% else %}
-              <p>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }} or when the issue has been patched.</p>
+              <p><em>This report is scheduled for public disclosure on {{ report.date | date: "%s" | plus: '3888000' | date: "%-d %B %Y" }} or when the issue has been patched.</em></p>
             {% endif %}
             {{ content }}
             <h2 id="timeline">Timeline</h2>
