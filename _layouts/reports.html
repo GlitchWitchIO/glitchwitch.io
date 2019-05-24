@@ -13,7 +13,7 @@ layout: default
           <h1 class="hero-title">Vulnerability Report for {{ report.vendor }}</h1>
           <p class="hero-text">
             {{ report.id }} - {{ report.type-long }} - {{ report.status }}
-            {% if report.cvss %}<br><small><span title="CVSS3 Base Score: {{ report.cvss }}">CVSS3: <strong>{{ report.cvss }}</span></strong> - {{ report.cvss-string }}</small>{% endif %}
+            {% if report.cvss %}<br><small><span title="CVSS3 Base Score: {{ report.cvss }}">CVSS3: <strong>{{ report.cvss }}</strong></span> - {{ report.cvss-string }}</small>{% endif %}
           </p>
         </div>
       </header>
@@ -51,3 +51,4 @@ layout: default
               </div>
             </section>
       {% endif %}
+      {% include sections/cta-reports.html %}
