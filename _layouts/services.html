@@ -1,0 +1,18 @@
+---
+layout: default
+---
+    <main class="wrapper">
+      <header class="hero white" style="background: url('{% if page.image.hero %}{{ site.url }}/assets/img/{{ page.image.hero }}{% else %}{{ site.url }}/assets/img/blog/default-header.jpg{% endif %}') #333 20% center/cover no-repeat !important;">
+        <div class="container">
+          <h1 class="hero-title jaguar">{{ page.title }}</h1>
+          <p class="hero-text jaguar">{{ page.tagline }}</p>
+        </div>
+      </header>
+      <section class="block column white-smoke padded-bottom">
+        <div class="container">
+          <div class="post-content">{{ content }}</div>
+        </div>
+      </section>
+
+      {% include sections/cta-services-report-contact.html %}
+      {% include sections/services-listing.html %}
