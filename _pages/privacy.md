@@ -27,4 +27,4 @@ Unless otherwise stated or agreed upon in written communication, a 45-day disclo
 
 ## Privacy Policy Changes
 
-This policy may change at anytime without prior warning. Changes can be tracked on [GitHub](https://github.com/GlitchWitchIO/glitchwitch.io/commits/master/pages/privacy.md)
+This policy may change at anytime without prior warning. Changes can be tracked on [GitHub](https://github.com/GlitchWitchSec/glitchwitch.io/commits/master/pages/privacy.md)

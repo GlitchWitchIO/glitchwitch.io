@@ -1,20 +1,20 @@
 ---
 layout: content
 title: "About"
-tagline: "Information Security Researcher by day. Spooky Hacker Girl by night."
+tagline: "Information Security Researcher by day. Spooky Hacker by night."
 permalink: /about/
 image:
   feature:
-  hero: 
+  hero:
 ---
 ## Who is GlitchWitch? <span style="font-weight:300; font-size:40%;"> They/Them </span>
 
-GlitchWitch is an Independent Security Researcher, Penetration Tester, and Bug Hunter who spends most of their free time learning how things work and improving what they can along the way.
+GlitchWitch is an IT and Information Security professional with both a strong technical background and a history of technical leadership.
 
 For over a decade they have worked independently with a wide variety of companies on an expansive list of technical projects.
 Some of their past clients include Internet Service Providers, VoIP Providers, Web Hosting Providers, Retail Chains, Government and Multimedia Organizations.
 
-Currently, they work as a freelance consultant and are [available for new engagements](/services/).
+Currently, they work remotely as an independent security consultant and are [available for new engagements](/services/).
 
 ## What is this website?
 

@@ -720,7 +720,7 @@ function(t, e) {
         return y
     }
 }), $(document).ready(function() {
-    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), videoPlay(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchIO/glitchwitch.io")
+    initMobileNav(), initNavHide(), caseTeaseNext(), imageRatio(), sectionJump(), videoPlay(), introAnimate(), console.log("Looking for this? https://github.com/GlitchWitchSec/glitchwitch.io")
 }), $("video").length && $(window).on("scroll", _.throttle(function() {
     Waypoint.refreshAll()
 }, 1e3)), $(".subnav-scroll-indicator--left").on("click", function(t) {

@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: GlitchWitch.IO
+title: Glitch Witch Security
 keywords: ["Glitch Witch, GlitchWitch, Infosec, hacker, researcher, spooky hacker girl"]
 url: https://glitchwitch.io
 #url: http://127.0.0.1:4000
@@ -21,7 +21,10 @@ collections:
   reports:
     output: true
     permalink: /:path
-    
+  services:
+    output: true
+    permalink: /:path
+
 #
 ###################################
 # Jekyll configuration
@@ -53,5 +56,5 @@ owner:
   google-analytics: #UA-XXXXXXXX-X
   rss: feed.xml
 # Social
-  twitter: GlitchWitchIO
-  github: GlitchWitchIO
+  twitter: GlitchWitch
+  github: GlitchWitchSec
