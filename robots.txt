@@ -9,3 +9,5 @@
 User-agent: *
 Disallow:
 Disallow: /contact-thanks/
+Disallow: /pentest-report/
+Disallow: /pentest-report-thanks/
