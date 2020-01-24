@@ -1,3 +1,439 @@
+- id: GWA-2020-005
+  idc:
+  link:
+  type: ID
+  type-long: Missing Authentication + Information Disclosure
+  cvss: 8.3
+  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  vendor: Compass.com
+  status: Patched
+  date: 22 January 2020
+  date-patched: 23 January 2020
+  date-published: 24 January 2020
+  published: true
+
+- id: GWA-2020-004
+  idc: 2847_1
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 21 January 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-003
+  idc: 3055_20
+  link:
+  type: MAC
+  type-long: Missing Access Control
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 20 January 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-002
+  idc: 3055_4
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 14 January 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-001
+  idc: 3055_1
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 09 January 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-026
+  idc: 2770_10
+  link:
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 11 December 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-025
+  idc: 2770_9
+  link:
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 11 December 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-024
+  idc: 2770_5
+  link:
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 06 December 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-023
+  idc: 2475_7
+  link:
+  type: DoS
+  type-long: Denial of Service
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 29 November 2019
+  date-patched: 16 December 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-022
+  idc: 2475_3
+  link:
+  type: RL
+  type-long: Missing Rate Limiting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 23 November 2019
+  date-patched: 15 January 2020
+  date-published:
+  published: false
+
+- id: GWA-2019-021
+  idc: 2536_9
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 25 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-020
+  idc: 2536_6
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-019
+  idc: 2536_3
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+
+- id: GWA-2019-018
+  idc: 2536_2
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+
+- id: GWA-2019-017
+  idc: 2536_1
+  link:
+  type: PrivESC
+  type-long: Privilege Escalation
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 20 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+
+- id: GWA-2019-016
+  idc: 2464_4
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 20 October 2019
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2019-015
+  idc: 2464_4
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 01 October 2019
+  date-patched: 10 October 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-014
+  idc: 2464_3
+  link:
+  type: SSL
+  type-long: SSL Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 01 October 2019
+  date-patched: 11 October 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-013
+  idc: 2464_2
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 01 October 2019
+  date-patched: 02 October 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-012
+  idc: 2464_1
+  link:
+  type: AUTH
+  type-long: Missing Authentication
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 01 October 2019
+  date-patched: 02 October 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-011
+  idc: 2322_3
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 19 September 2019
+  date-patched: 14 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-010
+  idc: 2322_2
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 18 September 2019
+  date-patched: 14 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-009
+  link:
+  type: MV
+  type-long: Multiple Vulnerabilities
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: ChenMed LLC
+  status: Patched
+  date: 04 September 2019
+  date-patched: 24 September 2019
+  date-published: 21 January 2020
+  published: true
+
+- id: GWA-2019-008
+  idc: 2322_1
+  link:
+  type: SSL
+  type-long: SSL Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 18 September 2019
+  date-patched: 11 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-007
+  idc: 2179_3
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 05 September 2019
+  date-patched: 11 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-006
+  idc: 2233_4
+  link:
+  type: HHI
+  type-long: Host Header Injection
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 05 September 2019
+  date-patched: 04 December 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-005
+  idc: 2233_3
+  link:
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 04 September 2019
+  date-patched: 16 December 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-004
+  idc: 2233_2
+  link:
+  type: NA
+  type-long: Not Avaliable
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 29 August 2019
+  date-patched: 22 October 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-003
+  idc: 2233_1
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 29 August 2019
+  date-patched: 11 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-002
+  idc: 2179_2
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 29 August 2019
+  date-patched: 11 November 2019
+  date-published:
+  published: false
+
+- id: GWA-2019-001
+  idc: 2179_1
+  link:
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Patched
+  date: 27 August 2019
+  date-patched: 11 November 2019
+  date-published:
+  published: false
+
 - id: GWA-2018-008
   link:
   type: MV
@@ -9,6 +445,7 @@
   date: 01 October 2018
   date-patched: 11 October 2018
   date-published: 12 October 2018
+  published: true
 
 - id: GWA-2018-007
   link:
@@ -21,6 +458,7 @@
   date: 10 August 2018
   date-patched: 23 September 2018
   date-published: 23 September 2018
+  published: true
 
 - id: GWA-2018-006
   link:
@@ -33,6 +471,7 @@
   date: 10 August 2018
   date-patched: 23 September 2018
   date-published: 23 September 2018
+  published: true
 
 - id: GWA-2018-005
   link:
@@ -45,6 +484,7 @@
   date: 10 August 2018
   date-patched: 17 August 2018
   date-published: 17 August 2018
+  published: true
 
 - id: GWA-2018-004
   link:
@@ -57,6 +497,7 @@
   date: 17 July 2018
   date-patched: 18 July 2018
   date-published: 29 July 2018
+  published: true
 
 - id: GWA-2018-003
   link:
@@ -69,6 +510,7 @@
   date: 09 July 2018
   date-patched: 20 August 2018
   date-published: 23 August 2018
+  published: true
 
 - id: GWA-2018-002
   link:
@@ -76,11 +518,12 @@
   type-long: Not Avaliable
   cvss: NA
   cvss-string:
-  vendor: undisclosed party
+  vendor: undisclosed
   status: Patched
   date: 19 May 2018
   date-patched: 30 May 2018
   date-published:
+  published: false
 
 - id: GWA-2018-001
   link: /blog/2018-02/textnow-security-update
@@ -93,3 +536,4 @@
   date: 30 Sept 2017
   date-patched: 01 Oct 2017
   date-published: 19 Feb 2018
+  published: true
