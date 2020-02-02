@@ -1,3 +1,45 @@
+- id: GWA-2020-008
+  idc: 2847_4
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 01 February 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-007
+  idc: 2847_3
+  link:
+  type: MV
+  type-long: Multiple Vulnerabilities
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 28 January 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-006
+  idc: 2847_2
+  link:
+  type: MV
+  type-long: Multiple Vulnerabilities
+  cvss: NA
+  cvss-string: Not Avaliable
+  vendor: undisclosed
+  status: Unpatched
+  date: 27 January 2020
+  date-patched:
+  date-published:
+  published: false
+
 - id: GWA-2020-005
   idc:
   link:
@@ -5,7 +47,7 @@
   type-long: Missing Authentication + Information Disclosure
   cvss: 8.3
   cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
-  vendor: Compass.com
+  vendor: compass.com
   status: Patched
   date: 22 January 2020
   date-patched: 23 January 2020
