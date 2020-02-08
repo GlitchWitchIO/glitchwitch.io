@@ -22,6 +22,10 @@ The following list includes some of the findings by GlitchWitch.io. Reports are 
 | ID | Type | Affected Party | CVSS3 | Status |{% assign published = site.data.reports | where: "published","true" %}{% for item in published %}
 | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}/">{{ item.vendor }}</a> | {% if item.cvss %}<span title="{{item.cvss-string}}">{{ item.cvss }}</span>{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}
 
+## Undisclosed Reports
+
+Below is a list of reports either pending disclosure or permanently undisclosed. Some reports may be permanently undisclosed due to non-disclosure agreements resulting from bug bounty payouts or other circumstances.
+
 | --- | --- | :--- | --- |
 | ID | Type | Affected Party | CVSS3 | Status |{% assign unpublished = site.data.reports | where: "published","false" %}{% for item in unpublished %}
-| <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}">{{ item.id }}</a> | <span title="{{item.type-long}}">{{ item.type }}</span> | <a href="{% if item.link %}{{ item.link }}{% else %}{{ site.url }}/reports/{{ item.id | remove: 'GWA-2018-00' }}{% endif %}/">{{ item.vendor }}</a> | {% if item.cvss %}<span title="{{item.cvss-string}}">{{ item.cvss }}</span>{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}
+| {% if item.link %}<a href="{{ item.link }}">{{ item.id }}</a>{% else %}{{ item.id }}{% endif %} | <span title="{{item.type-long}}">{{ item.type }}</span> | {% if item.link %}<a href="{{ item.link }}/">{{ item.vendor }}</a>{% else %}{{ item.vendor }}{% endif %} | {% if item.cvss %}<span title="{{item.cvss-string}}">{{ item.cvss }}</span>{% else %}N/A{% endif %} | {{ item.status }} |{% endfor %}

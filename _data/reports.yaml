@@ -5,7 +5,7 @@
   type-long: Missing Authentication + Information Disclosure
   cvss: 8.3
   cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
-  vendor:
+  vendor: undisclosed
   status: unpatched
   date: 07 February 2020
   date-patched:
@@ -118,9 +118,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 09 January 2020
-  date-patched:
+  date-patched: 07 February 2020
   date-published:
   published: false
 
