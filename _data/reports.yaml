@@ -18,8 +18,8 @@
   link:
   type: ID
   type-long: Missing Authentication + Information Disclosure
-  cvss: 8.3
-  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  cvss: 9.4
+  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
   vendor: Undisclosed
   status: Unpatched
   date: 07 February 2020
@@ -74,8 +74,8 @@
   link:
   type: ID
   type-long: Missing Authentication + Information Disclosure
-  cvss: 8.3
-  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  cvss: 8.6
+  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L
   vendor: compass.com
   status: Patched
   date: 22 January 2020
