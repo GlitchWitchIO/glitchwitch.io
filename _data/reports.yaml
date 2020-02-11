@@ -1,3 +1,18 @@
+- id: GWA-2020-010
+  idc:
+  link:
+  type: ID
+  type-long: Missing Authentication + Information Disclosure
+  cvss: 8.3
+  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  vendor: Undisclosed
+  status: Unpatched
+  date: 11 February 2020
+  date-patched:
+  date-published:
+  published: false
+
+
 - id: GWA-2020-009
   idc:
   link:
@@ -5,8 +20,8 @@
   type-long: Missing Authentication + Information Disclosure
   cvss: 8.3
   cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
-  vendor: undisclosed
-  status: unpatched
+  vendor: Undisclosed
+  status: Unpatched
   date: 07 February 2020
   date-patched:
   date-published:
