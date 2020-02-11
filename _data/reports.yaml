@@ -3,13 +3,13 @@
   link:
   type: ID
   type-long: Missing Authentication + Information Disclosure
-  cvss: 8.3
-  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
-  vendor: Undisclosed
-  status: Unpatched
+  cvss: 9.4
+  cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+  vendor: orchardhomes.com
+  status: Patched
   date: 11 February 2020
-  date-patched:
-  date-published:
+  date-patched: 11 February 2020
+  date-published: 
   published: false
 
 
