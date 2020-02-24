@@ -34,6 +34,7 @@ layout: default
                   <li><strong>{{ report.date | date: "%-d %B %Y" }}</strong>: Affected Party Notified</li>
                   {% if report.date-patched %}<li><strong>{{ report.date-patched | date: "%-d %B %Y" }}</strong>: Affected Party Released Patch <small><em>(+{{ epoch-date-patched | minus: epoch-date-reported }} days)</em></small></li> {% endif %}
                   {% if report.date-published %}<li><strong>{{ report.date-published | date: "%-d %B %Y" }}</strong>: Report Published <small><em>(+{{ epoch-date-published | minus: epoch-date-reported }} days)</em></small></li>{% endif %}
+                  {% if report.bounty %}<li><strong>{{ report.bounty-date | date: "%-d %B %Y" }}</strong>: Rewarded with a ${{ report.bounty }} USD bounty</li>{% endif %}
                 </ul>
           </div>
         </div>
