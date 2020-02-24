@@ -65,7 +65,7 @@
   type-long: Server Security Misconfiguration
   cvss: NA
   cvss-string: Not Avaliable
-  vendor: undisclosed
+  vendor: cobalt.io
   status: Patched
   date: 18 February 2020
   date-patched: 19 February 202
@@ -457,7 +457,7 @@
   type-long: Information Disclosure
   cvss: NA
   cvss-string: Not Avaliable
-  vendor: undisclosed
+  vendor: cobalt.io
   status: Patched
   date: 27 September 2019
   date-patched: 28 September 2019
