@@ -1,3 +1,18 @@
+- id: GWA-2020-019
+  idc:
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: 7.5
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  vendor: rentpayment.com
+  status: Unpatched
+  date: 25 February 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
 - id: GWA-2020-018
   idc:
   link:
