@@ -4,6 +4,7 @@ title: "Vulnerability Reports"
 tagline: "Disclosure Policy &amp; Vulnerability Report List"
 permalink: /reports/
 image:
+  social: sections/reports/reports-social.jpg
   feature:
   hero:
 ---
