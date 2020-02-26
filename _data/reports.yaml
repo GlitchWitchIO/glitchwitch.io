@@ -1,3 +1,33 @@
+- id: GWA-2020-022
+  idc:
+  link:
+  type: SQLi
+  type-long: SQL Injection
+  cvss: 9.8
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  vendor: textlogistics.com
+  status: Unpatched
+  date: 26 February 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-021
+  idc:
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: 7.5
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  vendor: textlogistics.com
+  status: Unpatched
+  date: 26 February 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
 - id: GWA-2020-020
   idc:
   link:
