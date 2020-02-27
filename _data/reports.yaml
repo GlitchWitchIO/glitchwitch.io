@@ -38,9 +38,9 @@
   vendor: titanvest.com
   status: Unpatched
   date: 25 February 2020
-  date-patched:
-  date-published:
-  published: false
+  date-patched: 27 February 2020
+  date-published: 27 February 2020
+  published: true
   bounty:
 
 - id: GWA-2020-019
