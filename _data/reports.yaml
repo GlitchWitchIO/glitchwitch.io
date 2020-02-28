@@ -36,7 +36,7 @@
   cvss: 7.5
   cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
   vendor: titanvest.com
-  status: Unpatched
+  status: Patched
   date: 25 February 2020
   date-patched: 27 February 2020
   date-published: 27 February 2020
