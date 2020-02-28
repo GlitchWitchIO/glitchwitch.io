@@ -38,6 +38,7 @@
   vendor: titanvest.com
   status: Patched
   date: 25 February 2020
+  date-responded: 27 February 2020
   date-patched: 27 February 2020
   date-published: 27 February 2020
   published: true
@@ -83,6 +84,7 @@
   vendor: zoom.us
   status: Unpatched
   date: 25 February 2020
+  date-responded: 28 February 2020
   date-patched:
   date-published:
   published: false
@@ -262,10 +264,11 @@
   vendor: compass.com
   status: Patched
   date: 22 January 2020
+  date-responded: 23 January 2020
   date-patched: 23 January 2020
   date-published: 24 January 2020
   published: true
-  bounty: 0
+  bounty:
   bounty-date: 24 January 2020
 
 - id: GWA-2020-004
@@ -594,6 +597,7 @@
   vendor: chenmed.com
   status: Patched
   date: 04 September 2019
+  date-responded: 20 September 2019
   date-patched: 24 September 2019
   date-published: 21 January 2020
   published: true
@@ -727,7 +731,9 @@
   vendor: winnipeg.ca
   status: Patched
   date: 01 October 2018
+  date-responded: 05 October 2018
   date-patched: 11 October 2018
+  date-responded-2: 12 October 2018
   date-published: 12 October 2018
   published: true
 
@@ -740,7 +746,9 @@
   vendor: shaw.ca
   status: Patched
   date: 10 August 2018
+  date-responded: 11 August 2018
   date-patched: 23 September 2018
+  date-responded-2: 23 September 2018
   date-published: 23 September 2018
   published: true
 
@@ -753,7 +761,9 @@
   vendor: shaw.ca
   status: Patched
   date: 10 August 2018
+  date-responded: 11 August 2018
   date-patched: 23 September 2018
+  date-responded-2: 23 September 2018
   date-published: 23 September 2018
   published: true
 
@@ -766,7 +776,9 @@
   vendor: t-mobile.com
   status: Patched
   date: 10 August 2018
+  date-responded: 13 August 2018
   date-patched: 17 August 2018
+  date-responded-2: 17 August 2018
   date-published: 17 August 2018
   published: true
 
@@ -774,13 +786,16 @@
   link:
   type: ID
   type-long: Information Disclosure
-  cvss: 9.8
-  cvss-string: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  cvss: 8.6
+  cvss-string: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
   vendor: nhpopc.gov.au
   status: Patched
   date: 17 July 2018
+  date-responded: 17 July 2018
   date-patched: 18 July 2018
+  date-responded-2: 18 July 2018
   date-published: 29 July 2018
+  date-responded-3:
   published: true
 
 - id: GWA-2018-003
@@ -792,14 +807,15 @@
   vendor: caamanitoba.com
   status: Patched
   date: 09 July 2018
+  date-responded: 20 August 2018
   date-patched: 20 August 2018
   date-published: 23 August 2018
   published: true
 
 - id: GWA-2018-002
   link:
-  type: NA
-  type-long: Not Avaliable
+  type: IDOR
+  type-long: Insecure Direct Object Reference Leading to Information Disclosure
   cvss: NA
   cvss-string:
   vendor: undisclosed

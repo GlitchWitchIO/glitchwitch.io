@@ -4,8 +4,11 @@ layout: default
 {% assign report = site.data.reports | where: 'id', page.report-id %} {% assign report = report[0] %}
 
 {% assign epoch-date-reported = report.date | date: "%s" | divided_by: 86400 %}
+{% assign epoch-date-responded = report.date-responded | date: "%s" | divided_by: 86400 %}
 {% assign epoch-date-patched = report.date-patched | date: "%s" | divided_by: 86400 %}
+{% assign epoch-date-responded-2 = report.date-responded-2 | date: "%s" | divided_by: 86400 %}
 {% assign epoch-date-published = report.date-published | date: "%s" | divided_by: 86400 %}
+{% assign epoch-date-responded-3 = report.date-responded-3 | date: "%s" | divided_by: 86400 %}
 
     <main class="wrapper">
       <header class="hero">
@@ -32,8 +35,11 @@ layout: default
             <h2 id="timeline">Timeline</h2>
               <ul>
                   <li><strong>{{ report.date | date: "%-d %B %Y" }}</strong>: Affected Party Notified</li>
+                  {% if report.date-responded %}<li><strong>{{ report.date-responded | date: "%-d %B %Y" }}</strong>: Affected Party Responded <small><em>(+{{ epoch-date-responded | minus: epoch-date-reported }} days)</em></small></li> {% endif %}
                   {% if report.date-patched %}<li><strong>{{ report.date-patched | date: "%-d %B %Y" }}</strong>: Affected Party Released Patch <small><em>(+{{ epoch-date-patched | minus: epoch-date-reported }} days)</em></small></li> {% endif %}
+                  {% if report.date-responded-2 %}<li><strong>{{ report.date-responded-2 | date: "%-d %B %Y" }}</strong>: Affected Party Responded <small><em>(+{{ epoch-date-responded-2 | minus: epoch-date-reported }} days)</em></small></li> {% endif %}
                   {% if report.date-published %}<li><strong>{{ report.date-published | date: "%-d %B %Y" }}</strong>: Report Published <small><em>(+{{ epoch-date-published | minus: epoch-date-reported }} days)</em></small></li>{% endif %}
+                  {% if report.date-responded-3 %}<li><strong>{{ report.date-responded-2 | date: "%-d %B %Y" }}</strong>: Affected Party Responded <small><em>(+{{ epoch-date-responded-3 | minus: epoch-date-reported }} days)</em></small></li> {% endif %}
                   {% if report.bounty %}<li><strong>{{ report.bounty-date | date: "%-d %B %Y" }}</strong>: Rewarded with a ${{ report.bounty }} USD bounty</li>{% endif %}
                 </ul>
           </div>
