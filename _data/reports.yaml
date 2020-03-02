@@ -18,8 +18,8 @@
   link:
   type: ACB
   type-long: Access Control Bypass
-  cvss: 7.5
-  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: textlogistics.com
   status: Unpatched
   date: 26 February 2020
@@ -33,8 +33,8 @@
   link:
   type: ACB
   type-long: Access Control Bypass
-  cvss: 7.5
-  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: titanvest.com
   status: Patched
   date: 25 February 2020
@@ -49,8 +49,8 @@
   link:
   type: ACB
   type-long: Access Control Bypass
-  cvss: 7.5
-  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: rentpayment.com
   status: Unpatched
   date: 25 February 2020
@@ -64,8 +64,8 @@
   link:
   type: ACB
   type-long: Access Control Bypass
-  cvss: 7.5
-  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: vistaprint.com
   status: Unpatched
   date: 25 February 2020
@@ -80,8 +80,8 @@
   link:
   type: ACB
   type-long: Access Control Bypass
-  cvss: 7.5
-  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: zoom.us
   status: Patched
   date: 25 February 2020
