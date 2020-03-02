@@ -69,6 +69,7 @@
   vendor: vistaprint.com
   status: Unpatched
   date: 25 February 2020
+  date-responded: 02 March 2020
   date-patched:
   date-published:
   published: false
@@ -82,10 +83,11 @@
   cvss: 7.5
   cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
   vendor: zoom.us
-  status: Unpatched
+  status: Patched
   date: 25 February 2020
   date-responded: 28 February 2020
-  date-patched:
+  date-patched: 02 March 2020
+  date-responded-2: 02 March 2020
   date-published:
   published: false
   bounty:
