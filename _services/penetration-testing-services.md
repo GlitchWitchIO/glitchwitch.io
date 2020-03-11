@@ -14,3 +14,5 @@ image:
 ## Penetration Testing Services
 
 Get a real-world look at how attackers could exploit your vulnerabilities and advice on how to stop them. Get insights from a combination of automated vulnerability assessment tools and manual testing following the Open Web Application Security Project [(OWASP) Testing Guide](https://www.owasp.org/index.php/OWASP_Testing_Project), [OWASP Mobile Security Testing Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide), and an independently formed set of methodologies.
+
+In addition to tried and true methodical manual testing, GlitchWitch also employs a unique set of automated vulnerability scanning and static code analysis tools developed both in-house and from well known commercial vendors. This hybrid approach to testing ensures your application is thoroughly tested inside and out.
