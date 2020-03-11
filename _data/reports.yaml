@@ -1,3 +1,138 @@
+- id: GWA-2020-031
+  idc: 3361_12
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 10 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-030
+  idc: 3361_11
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 10 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-029
+  idc: 3361_10
+  link:
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 10 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-028
+  idc: 3361_4
+  link:
+  type: OR
+  type-long: Open Redirect
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 06 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-027
+  idc: 3361_3
+  link:
+  type: ACB
+  type-long: Access Control Bypass
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 06 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-026
+  idc: 3361_2
+  link:
+  type: MV
+  type-long: Multiple Vulnerabilities
+  cvss: NA
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 05 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-025
+  idc: 3361_1
+  link:
+  type: SSL
+  type-long: SSL Misconfiguration
+  cvss: 6.8
+  cvss-string: AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 05 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty: 1500
+
+- id: GWA-2020-024
+  idc:
+  link:
+  type: SSM
+  type-long: S
+  cvss: 6.5
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  vendor: cobalt.io
+  status: Unpatched
+  date: 03 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-023
+  idc:
+  link:
+  type: ID
+  type-long: Information Disclosure
+  cvss: 6.5
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  vendor: cobalt.io
+  status: Unpatched
+  date: 03 March 2020
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
 - id: GWA-2020-022
   idc:
   link:
@@ -88,8 +223,8 @@
   date-responded: 28 February 2020
   date-patched: 02 March 2020
   date-responded-2: 02 March 2020
-  date-published:
-  published: false
+  date-published: 11 March 2020
+  published: true
   bounty:
 
 - id: GWA-2020-016
@@ -214,10 +349,10 @@
 - id: GWA-2020-008
   idc: 2847_4
   link:
-  type: SSM
-  type-long: Server Security Misconfiguration
-  cvss: NA
-  cvss-string: Not Avaliable
+  type: SSL
+  type-long: SSL Misconfiguration
+  cvss: 6.8
+  cvss-string: AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
   vendor: undisclosed
   status: Unpatched
   date: 01 February 2020
@@ -276,8 +411,8 @@
 - id: GWA-2020-004
   idc: 2847_1
   link:
-  type: SSM
-  type-long: Server Security Misconfiguration
+  type: SSL
+  type-long: SSL Misconfiguration
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
