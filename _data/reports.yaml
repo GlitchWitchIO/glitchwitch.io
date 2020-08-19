@@ -1,3 +1,268 @@
+- id: GWA-2020-055
+  idc: 4057_5
+  type: XSS
+  type-long: Stored Cross Site Scripting
+  cvss: 6.4
+  cvss-string: AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 23 July 2020
+  published: false
+
+- id: GWA-2020-054
+  idc: 3729_5
+  type: PrivESC
+  type-long: Privelage Escalation
+  cvss: 8.3
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 June 2020
+  published: false
+
+- id: GWA-2020-053
+  idc: 3729_1
+  type: SSM
+  type-long: Server Side Misconfiguration
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 June 2020
+  published: false
+
+- id: GWA-2020-052
+  idc: 3803_5
+  type: ID
+  type-long: Information Disclosure
+  cvss: 8.5
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N
+  vendor: undisclosed
+  status: Patched
+  date: 15 June 2020
+  published: false
+
+- id: GWA-2020-051
+  idc: 3803_1
+  type: VULN
+  type-long: Components with Known Vulnerabilities
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 14 June 2020
+  published: false
+
+- id: GWA-2020-050
+  idc: 3677_11
+  type: SSI
+  type-long: Server-Side Injection
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 08 June 2020
+  published: false
+
+- id: GWA-2020-049
+  idc: 3677_11
+  type: SSI
+  type-long: Server-Side Injection
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 08 June 2020
+  published: false
+
+- id: GWA-2020-048
+  idc: 3677_7
+  type: SSM
+  type-long: File Upload Extention Bypass
+  cvss: 4.9
+  cvss-string: AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 02 June 2020
+  published: false
+
+- id: GWA-2020-047
+  idc: 3677_5
+  type: ID
+  type-long: Information Disclosure
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 28 May 2020
+  published: false
+
+- id: GWA-2020-046
+  idc: 3677_2
+  type: PrivESC
+  type-long: Privelage Escalation
+  cvss: 7.2
+  cvss-string: AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Patched
+  date: 26 May 2020
+  published: false
+
+- id: GWA-2020-045
+  idc: 3673_5
+  type: CONF
+  type-long: Insufficient Security Configurability
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 24 May 2020
+  published: false
+
+- id: GWA-2020-044
+  idc: 3478_13
+  type: CONF
+  type-long: Insufficient Security Configurability
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 27 April 2020
+  published: false
+
+- id: GWA-2020-043
+  idc: 3478_10
+  type: LFI
+  type-long: Local File Inclusion
+  cvss: 8.2
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+  vendor: undisclosed
+  status: Patched
+  date: 22 April 2020
+  published: false
+
+- id: GWA-2020-042
+  idc: 3478_9
+  type: PrivESC
+  type-long: Privelage Escalation
+  cvss: 7.6
+  cvss-string: AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L
+  vendor: undisclosed
+  status: Patched
+  date: 21 April 2020
+  published: false
+
+- id: GWA-2020-041
+  idc: 3478_5
+  type: ID
+  type-long: Information Disclosure
+  cvss: 8.8
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+  vendor: undisclosed
+  status: Patched
+  date: 16 April 2020
+  published: false
+
+- id: GWA-2020-040
+  idc: 3478_4
+  type: RCE
+  type-long: Unrestricted File Upload and Remote Code Execution
+  cvss: 9.1
+  cvss-string: AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Patched
+  date: 15 April 2020
+  published: false
+
+- id: GWA-2020-039
+  idc: 3478_3
+  type: RCE
+  type-long: Unrestricted File Upload and Remote Code Execution
+  cvss: 9.1
+  cvss-string: AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Patched
+  date: 15 April 2020
+  published: false
+
+- id: GWA-2020-038
+  idc: 3478_1
+  type: RCE
+  type-long: Unrestricted File Upload and Remote Code Execution
+  cvss: 9.1
+  cvss-string: AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Patched
+  date: 14 April 2020
+  published: false
+
+- id: GWA-2020-037
+  idc: 3443_4
+  type: XSS
+  type-long: Cross Site Scripting
+  cvss: 6.1
+  cvss-string: AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 01 April 2020
+  published: false
+
+- id: GWA-2020-036
+  idc: 3443_3
+  type: SSI
+  type-long: Server Side Injection
+  cvss: 8.5
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 31 March 2020
+  published: false
+
+- id: GWA-2020-035
+  idc: 3443_2
+  type: SSM
+  type-long: Insecure Data Storage
+  cvss: 7.3
+  cvss-string: AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 31 March 2020
+  published: false
+
+- id: GWA-2020-034
+  idc: 3443_1
+  type: REDIRECT
+  type-long: Open Rediect
+  cvss: 6.5
+  cvss-string: AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 31 March 2020
+  published: false
+
+- id: GWA-2020-033
+  idc: 3453_2
+  type: AUTH
+  type-long: Authentication and Sessions
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 27 March 2020
+  published: false
+
+- id: GWA-2020-032
+  idc: 3453_1
+  type: EXT
+  type-long: CSV Injection
+  cvss: 9.0
+  cvss-string: AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Unpatched
+  date: 19 March 2020
+  published: false
+
+
 - id: GWA-2020-031
   idc: 3361_12
   link:
@@ -111,7 +376,7 @@
   cvss: 6.5
   cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
   vendor: cobalt.io
-  status: Unpatched
+  status: Patched
   date: 03 March 2020
   date-patched:
   date-published:
