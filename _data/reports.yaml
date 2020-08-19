@@ -144,8 +144,8 @@
   status: Unpatched
   date: 26 February 2020
   date-patched:
-  date-published:
-  published: false
+  date-published: 19 August 2020
+  published: true
   bounty:
 
 - id: GWA-2020-021
@@ -159,8 +159,8 @@
   status: Unpatched
   date: 26 February 2020
   date-patched:
-  date-published:
-  published: false
+  date-published: 19 August 2020
+  published: true
   bounty:
 
 - id: GWA-2020-020
@@ -189,9 +189,10 @@
   vendor: rentpayment.com
   status: Unpatched
   date: 25 February 2020
-  date-patched:
-  date-published:
-  published: false
+  date-responded: 04 May 2020
+  date-patched: 04 May 2020
+  date-published: 19 August 2020
+  published: true
   bounty:
 
 - id: GWA-2020-018
@@ -205,9 +206,9 @@
   status: Unpatched
   date: 25 February 2020
   date-responded: 02 March 2020
-  date-patched:
-  date-published:
-  published: false
+  date-patched: 19 August 2020
+  date-published: 19 August 2020
+  published: true
   bounty:
 
 - id: GWA-2020-017
