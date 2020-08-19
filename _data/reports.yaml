@@ -190,7 +190,7 @@
   cvss: 5.3
   cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
   vendor: rentpayment.com
-  status: Unpatched
+  status: Patched
   date: 25 February 2020
   date-responded: 04 May 2020
   date-patched: 04 May 2020
@@ -209,7 +209,7 @@
   status: Unpatched
   date: 25 February 2020
   date-responded: 02 March 2020
-  date-patched: 
+  date-patched:
   date-published: 19 August 2020
   published: true
   bounty:
