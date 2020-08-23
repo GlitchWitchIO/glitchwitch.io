@@ -609,9 +609,9 @@
   cvss: 9.4
   cvss-string: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
   vendor: myvolly.com
-  status: Unpatched
+  status: Patched
   date: 07 February 2020
-  date-patched:
+  date-patched: 19 August 2020
   date-published: 19 August 2020
   published: true
 
