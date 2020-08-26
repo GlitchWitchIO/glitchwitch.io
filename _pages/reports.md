@@ -11,6 +11,8 @@ image:
 ## What is Responsible Disclosure?
 Responsible disclosure is a vulnerability disclosure model in which a vulnerability is disclosed after a period of time or once the vulnerability is patched. You can read more about this at [BugCrowd: What is Responsible Disclosure?](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)
 
+>If for some reason you wish to postpone the disclosure of a finding reported to you, accommodation may be made if requested. Additionally vulnerability reports that are compensated through a bug bounty payout may be except from public disclosure if mutually agreed upon.
+
 ## Disclosure Policy
 
 Unless otherwise stated or agreed upon in written communication, a 45-day disclosure deadline will apply to all bugs and vulnerabilities found by glitchwitch.io research. All findings will be disclosed to the public once either a patch has been made broadly available or after 45 days from the initial report, regardless of the existence or availability of patches or workarounds. Extenuating circumstances, such as active exploitation, threats of an especially serious (or trivial) nature, or situations that require changes to an established standard may result in earlier or later disclosure. This disclosure policy is based on the [CERT Coordination Center (CERT/CC) Vulnerability Disclosure Policy.](https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy)
