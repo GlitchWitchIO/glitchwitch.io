@@ -8,7 +8,7 @@ info2: "If you have a question related to a specific blog post, please use the c
 
 tagline3: "Email"
 text3: "Typical response time within 72 hours"
-pgp: 3A0D6192.asc
+pgp: publickey.asc
 info3: "Don't like forms or need PGP? All business inquiries and encrypted communication can be directed to the email address above."
 
 tagline4: "Twitter"
