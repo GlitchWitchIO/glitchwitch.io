@@ -1,3 +1,395 @@
+- id: GWA-2021-008
+  link:
+  idc: 5891_4
+  type: OR
+  type-long: Open Redirect
+  cvss: 5.9
+  cvss-string: AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 05 March 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-007
+  link:
+  idc: 5891_3
+  type: OR
+  type-long: Open Redirect
+  cvss: 4.2
+  cvss-string: AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 05 March 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-006
+  link:
+  idc: 5733_5
+  type: SQLi
+  type-long: SQL Injection
+  cvss: 8.8
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  vendor: undisclosed
+  status: Unpatched
+  date: 25 February 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-005
+  link:
+  idc: 5733_4
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 24 February 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-004
+  link:
+  idc: 5556_8
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: 8.2
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+  vendor: undisclosed
+  status: Unpatched
+  date: 09 February 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-003
+  link:
+  idc: 5556_7
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: 8.2
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 06 February 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-002
+  link:
+  idc: 5440_6
+  type: PrivESC
+  type-long: Privilege Escalation
+  cvss: 6.4
+  cvss-string: AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+  vendor: undisclosed
+  status: Unpatched
+  date: 20 January 2021
+  date-patched:
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2021-001
+  link:
+  idc: 5372_5
+  type: XSS
+  type-long: Stored XSS
+  cvss: 7.6
+  cvss-string: AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
+  vendor: undisclosed
+  status: Patched
+  date: 08 January 2021
+  date-patched: 14 January 2021
+  date-published:
+  published: false
+  bounty:
+
+- id: GWA-2020-080
+  link:
+  idc: 5372_2
+  type: SSRF
+  type-long: Server Side Request Forgery
+  cvss: 5.8
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N
+  vendor: undisclosed
+  status: Patched
+  date: 30 December 2020
+  date-patched: 02 March 2021
+  date-published:
+  published: false
+  bounty:
+
+
+- id: GWA-2020-079
+  idc: 5174_4
+  type: SSM
+  type-long: Server Security Misconfiguration
+  cvss: 5.3
+  cvss-string: AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 December 2020
+  date-patched:
+  date-published:
+  published: false
+
+- id: GWA-2020-077
+  idc: 5007_5
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 16 December 2020
+  published: false
+
+- id: GWA-2020-076
+  idc: 5007_4
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 16 December 2020
+  published: false
+
+- id: GWA-2020-075
+  idc: 4993_2
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 02 December 2020
+  published: false
+
+- id: GWA-2020-074
+  idc: 4735_9
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 27 November 2020
+  published: false
+
+- id: GWA-2020-073
+  idc: 4735_7
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 22 November 2020
+  published: false
+
+- id: GWA-2020-072
+  idc: 4735_4
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 18 November 2020
+  published: false
+
+- id: GWA-2020-071
+  idc: 4612_9
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 15 November 2020
+  published: false
+
+- id: GWA-2020-070
+  idc: 4612_8
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 15 November 2020
+  published: false
+
+- id: GWA-2020-069
+  idc: 4612_4
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 03 November 2020
+  date-patched: 05 March 2021
+  published: false
+
+- id: GWA-2020-068
+  idc: 4612_1
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 02 November 2020
+  published: false
+
+- id: GWA-2020-067
+  idc: 4527_3
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 08 Oktober 2020
+  published: false
+
+- id: GWA-2020-066
+  idc: 4447_2
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 26 September 2020
+  published: false
+
+- id: GWA-2020-065
+  idc: 4437_6
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 24 September 2020
+  published: false
+
+- id: GWA-2020-064
+  idc: 4437_5
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 17 September 2020
+  published: false
+
+- id: GWA-2020-063
+  idc: 4396_4
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 14 September 2020
+  published: false
+
+- id: GWA-2020-062
+  idc:
+  type: WAF
+  type-long: WAF Bypass
+  cvss:
+  cvss-string:
+  vendor: WestUC.com
+  status: Unpatched
+  date: 08 September 2020
+  published: false
+
+- id: GWA-2020-061
+  idc: 4279_5
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 04 September 2020
+  published: false
+
+- id: GWA-2020-060
+  idc: 4279_1
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Unpatched
+  date: 24 August 2020
+  published: false
+
+- id: GWA-2020-059
+  idc: 4185_10
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 14 August 2020
+  published: false
+
+- id: GWA-2020-058
+  idc: 4185_9
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 12 August 2020
+  published: false
+
+- id: GWA-2020-057
+  idc: 4185_2
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 11 August 2020
+  published: false
+
+- id: GWA-2020-056
+  idc: 4185_1
+  type: NA
+  type-long: NA
+  cvss:
+  cvss-string:
+  vendor: undisclosed
+  status: Patched
+  date: 11 August 2020
+  published: false
+
 - id: GWA-2020-055
   idc: 4057_5
   type: XSS
