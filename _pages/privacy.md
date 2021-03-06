@@ -4,14 +4,14 @@ title: "Privacy Policy"
 tagline: "By interacting with this domain (glitchwitch.io) over any protocol or service you are agreeing to the following Privacy Policy."
 permalink: /privacy/
 image:
-  feature: 
-  hero: 
+  feature:
+  hero:
 ---
 ## Third Party Services
 
 The following third party services may be used by glitchwitch.io and as such you may be bound to those privacy policies as well.
 
-[ProtonMail](https://protonmail.com/privacy-policy), [Formspree](http://docs.formspree.io/files/privacy.pdf), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
+[ProtonMail](https://protonmail.com/privacy-policy), [Formspree](https://formspree.io/legal/privacy-policy), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
 
 ## Voluntarily Submitted Information
 
