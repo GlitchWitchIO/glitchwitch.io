@@ -27,4 +27,4 @@ The current vulnerability disclosure policy adopted by glitchwitch.io can be fou
 
 ## Privacy Policy Changes
 
-This policy may change at anytime without prior warning. Changes can be tracked on [GitHub](https://github.com/GlitchWitchSec/glitchwitch.io/commits/master/pages/privacy.md)
+This policy may change at anytime without prior warning. Changes can be tracked on [GitHub](https://github.com/GlitchWitch/glitchwitch.io/commits/master/_pages/privacy.md)
