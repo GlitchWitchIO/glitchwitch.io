@@ -3,14 +3,63 @@
 <p>To acquire a copy of my sample pentest report, please use the following form.
   Alternatively you can take a look at my <a href="/reports/">publicly disclosed bug bounty reports.</a>
 </p>
-<form class="wj-contact" action="https://formspree.io/hello@glitchwitch.io" method="POST">
-    <input type="text" name="name" placeholder="Name">
-    <input type="text" name="email" placeholder="Email Address">
-    <input type="hidden" name="_next" value="https://glitchwitch.io/pentest-report-download/">
-    <input type="hidden" name="_subject" value="Website Inquiry: Sample Report">
-    <input type="text" name="_gotcha" style="display:none">
-    <br>
-    <input type="submit" value="Download">
+<form class="wj-contact" id="my-form" action="https://formspree.io/f/xwkwdgaz" method="POST">
+  <input type="text" name="name" placeholder="Name">
+  <input type="text" name="_replyto" placeholder="Email Address">
+  <input type="hidden" name="_subject" value="Sample Penetration Test Report">
+  <input type="text" name="_gotcha" style="display:none">
+  <br>
+  <input id="my-form-button" type="submit" value="Download">
+  <p id="my-form-status"></p>
 </form>
 <p><small>Information submitted here is subject to the <a href="/privacy/">privacy policy</a> and is sent to <a href="https://formspree.io/">formspree.io</a>.</small></p>
 <hr>
+
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "<strong>Your download request has been submitted. You should hear back shortly! In the meantime you can see some of my publicly disclosed reports <a href=/reports/>here</a>.</strong>";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem. Please check the web console. Do you have referer's disabled?";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>

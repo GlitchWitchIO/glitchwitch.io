@@ -1,13 +1,63 @@
 <style>form.wj-contact input[type="text"],form.wj-contact textarea[type="text"]{width:100%;vertical-align:middle;margin-top:0.25em;margin-bottom:0.5em;padding:0.75em;font-family:monospace, sans-serif;font-weight:lighter;border-style:solid;border-color:#444;outline-color:#2e83e6;border-width:1px;border-radius:3px;transition:box-shadow 0.2s ease}form.wj-contact input[type="submit"]{outline:none;color:white;background-color:#333;border-radius:3px;padding:0.5em;margin:0.25em 0 0;border:1px solid transparent;height:auto}</style>
 <h2>Get in Touch</h2>
-<form class="wj-contact" action="https://formspree.io/{{ author.email }}" method="POST">
+<form id="my-form" class="wj-contact" action="https://formspree.io/f/mbjpvnqv" method="POST">
     <input type="text" name="name" placeholder="Name">
-    <input type="text" name="email" placeholder="Email Address">
+    <input type="text" name="_replyto" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="https://glitchwitch.io/contact-thanks/">
     <input type="hidden" name="_subject" value="Website Inquiry">
     <input type="text" name="_gotcha" style="display:none">
-    <input type="submit" value="Submit">
+    <input id="my-form-button" type="submit" value="Submit">
+    <br>
+    <p id="my-form-status"></p>
 </form>
 <p><small>Information submitted here is subject to the <a href="/privacy/">privacy policy</a> and is sent to <a href="https://formspree.io/">formspree.io</a>.</small></p>
 <hr>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "<strong>Thank you for your contact form submission. Check your inbox for a response in a little bit!</strong>";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem. Please check the web console. Do you have referer's disabled?";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
