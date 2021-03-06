@@ -21,9 +21,9 @@ glitchwitch.io may retain information you voluntarily submit. It is up to you wh
 
 This website relies on CloudFlare for very basic DNS based traffic analytics. Emails sent from glitchwitch.io may include tracking pixels because emails give me anxiety. Email open/click tracking can usually be blocked with third party software if you wish to opt-out of this.
 
-## Vulnerability Disclosure
+## Vulnerability Disclosure Policy
 
-Unless otherwise stated or agreed upon in written communication, a 45-day disclosure deadline will apply to all bugs and vulnerabilities found by glitchwitch.io research. All findings will be disclosed to the public once either a patch has been made broadly available or after 45 days from the initial report, regardless of the existence or availability of patches or workarounds. Extenuating circumstances, such as active exploitation, threats of an especially serious (or trivial) nature, or situations that require changes to an established standard may result in earlier or later disclosure.
+The current vulnerability disclosure policy adopted by glitchwitch.io can be found on the [reports page](/reports).
 
 ## Privacy Policy Changes
 
