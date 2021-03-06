@@ -11,3 +11,5 @@ Disallow:
 Disallow: /contact-thanks/
 Disallow: /pentest-report/
 Disallow: /pentest-report-download/
+Disallow: /xss/
+Disallow: /xss-payload/
