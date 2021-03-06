@@ -5,19 +5,21 @@
   cvss: 6.4
   cvss-string: AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 23 July 2020
+  date-patched: 17 September 2020
   published: false
 
 - id: GWA-2020-054
-  idc: 3729_5
+  idc: 3729_6
   type: PrivESC
-  type-long: Privelage Escalation
+  type-long: Privilege Escalation
   cvss: 8.3
   cvss-string: AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 22 June 2020
+  date-patched: 21 August 2020
   published: false
 
 - id: GWA-2020-053
@@ -27,8 +29,9 @@
   cvss:
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 22 June 2020
+  date-patched: 16 October 2020
   published: false
 
 - id: GWA-2020-052
@@ -53,16 +56,6 @@
   date: 14 June 2020
   published: false
 
-- id: GWA-2020-050
-  idc: 3677_11
-  type: SSI
-  type-long: Server-Side Injection
-  cvss:
-  cvss-string:
-  vendor: undisclosed
-  status: Unpatched
-  date: 08 June 2020
-  published: false
 
 - id: GWA-2020-049
   idc: 3677_11
@@ -82,8 +75,9 @@
   cvss: 4.9
   cvss-string: AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 02 June 2020
+  date-patched: 29 September 2020
   published: false
 
 - id: GWA-2020-047
@@ -100,7 +94,7 @@
 - id: GWA-2020-046
   idc: 3677_2
   type: PrivESC
-  type-long: Privelage Escalation
+  type-long: Privilege Escalation
   cvss: 7.2
   cvss-string: AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
   vendor: undisclosed
@@ -144,7 +138,7 @@
 - id: GWA-2020-042
   idc: 3478_9
   type: PrivESC
-  type-long: Privelage Escalation
+  type-long: Privilege Escalation
   cvss: 7.6
   cvss-string: AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L
   vendor: undisclosed
@@ -231,7 +225,7 @@
 
 - id: GWA-2020-034
   idc: 3443_1
-  type: REDIRECT
+  type: OR
   type-long: Open Rediect
   cvss: 6.5
   cvss-string: AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
@@ -286,9 +280,9 @@
   cvss: NA
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 10 March 2020
-  date-patched:
+  date-patched: 24 March 2020
   date-published:
   published: false
   bounty:
@@ -301,9 +295,9 @@
   cvss: NA
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 10 March 2020
-  date-patched:
+  date-patched: 17 March 2020
   date-published:
   published: false
   bounty:
@@ -316,9 +310,9 @@
   cvss: NA
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 06 March 2020
-  date-patched:
+  date-patched: 17 March 2020
   date-published:
   published: false
   bounty:
@@ -331,9 +325,9 @@
   cvss: NA
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 06 March 2020
-  date-patched:
+  date-patched: 17 March 2020
   date-published:
   published: false
   bounty:
@@ -346,9 +340,9 @@
   cvss: NA
   cvss-string:
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 05 March 2020
-  date-patched:
+  date-patched: 10 March 2020
   date-published:
   published: false
   bounty:
@@ -366,7 +360,7 @@
   date-patched:
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2020-024
   idc:
@@ -584,7 +578,7 @@
   date-patched:
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2020-010
   idc:
@@ -638,9 +632,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 28 January 2020
-  date-patched:
+  date-patched: 18 February 2020
   date-published:
   published: false
   bounty:
@@ -653,9 +647,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 27 January 2020
-  date-patched:
+  date-patched: 15 September 2020
   date-published:
   published: false
   bounty:
@@ -690,7 +684,7 @@
   date-patched:
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2020-003
   idc: 3055_20
@@ -700,9 +694,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 20 January 2020
-  date-patched:
+  date-patched: 02 November 2020
   date-published:
   published: false
   bounty:
@@ -715,9 +709,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 14 January 2020
-  date-patched:
+  date-patched: 15 November 2020
   date-published:
   published: false
   bounty:
@@ -735,7 +729,7 @@
   date-patched: 07 February 2020
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-026
   idc: 2770_10
@@ -745,9 +739,9 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 11 December 2019
-  date-patched:
+  date-patched: 22 May 2020
   date-published:
   published: false
   bounty:
@@ -775,12 +769,12 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 06 December 2019
-  date-patched:
+  date-patched: 05 May 2020
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-023
   idc: 2475_7
@@ -790,7 +784,7 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 29 November 2019
   date-patched: 16 December 2019
   date-published:
@@ -805,12 +799,12 @@
   cvss: NA
   cvss-string: Not Avaliable
   vendor: undisclosed
-  status: Unpatched
+  status: Patched
   date: 23 November 2019
   date-patched: 15 January 2020
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-021
   idc: 2536_9
@@ -887,7 +881,7 @@
   date-patched:
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-016
   idc: 2464_4
@@ -947,7 +941,7 @@
   date-patched: 02 October 2019
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-012
   idc:
@@ -992,7 +986,7 @@
   date-patched: 14 November 2019
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2019-009
   link:
@@ -1126,7 +1120,7 @@
   date-patched: 11 November 2019
   date-published:
   published: false
-  bounty: 1500
+  bounty:
 
 - id: GWA-2018-008
   link:
