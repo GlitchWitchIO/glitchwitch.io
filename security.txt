@@ -1,0 +1,7 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+Contact: mailto:hello@glitchwitch.io
+Encryption: https://glitchwitch.io/publickey.asc
+Canonical: https://glitchwitch.io/.well-known/security.txt

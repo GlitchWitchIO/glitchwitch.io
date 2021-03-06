@@ -1,2 +1,0 @@
-Contact: mailto:hello@glitchwitch.io
-Encryption: https://glitchwitch.io/publickey.asc
