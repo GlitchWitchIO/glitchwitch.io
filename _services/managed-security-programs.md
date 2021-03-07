@@ -13,4 +13,4 @@ image:
 
 ## Managed Security Programs
 
-Implement bug bounty and vulnerability disclosure programs and get actionable results that your team can work with. Let GlitchWitch handle your security program to help verify researcher findings, prioritize vulnerabilities, and coordinate communication and logistics.
+Implement bug bounty and vulnerability disclosure programs and get actionable results that your team can utilize. Let GlitchWitch handle your security program to help verify researcher findings, prioritize vulnerabilities, and coordinate communication and logistics.

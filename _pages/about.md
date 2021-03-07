@@ -14,7 +14,7 @@ GlitchWitch is an IT and Information Security professional with both a strong te
 For over a decade they have worked independently with a wide variety of companies on an expansive list of technical projects.
 Some of their past clients include Internet Service Providers, VoIP Providers, Web Hosting Providers, Retail Chains, Government and Multimedia Organizations.
 
-Currently they work remotely as an independent security consultant, are an offensive security certified professional, and are [available for new engagements](/services/).
+Currently, they work remotely as an independent security consultant, are an offensive security certified professional, and are [available for new engagements](/services/).
 
 ## What is this website?
 
