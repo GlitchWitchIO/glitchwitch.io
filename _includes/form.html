@@ -1,16 +1,18 @@
 <style>form.wj-contact input[type="text"],form.wj-contact textarea[type="text"]{width:100%;vertical-align:middle;margin-top:0.25em;margin-bottom:0.5em;padding:0.75em;font-family:monospace, sans-serif;font-weight:lighter;border-style:solid;border-color:#444;outline-color:#2e83e6;border-width:1px;border-radius:3px;transition:box-shadow 0.2s ease}form.wj-contact input[type="submit"]{outline:none;color:white;background-color:#333;border-radius:3px;padding:0.5em;margin:0.25em 0 0;border:1px solid transparent;height:auto}</style>
 <h2>Get in Touch</h2>
+<!--sse-->
 <form id="my-form" class="wj-contact" action="https://formspree.io/f/mbjpvnqv" method="POST">
+    <input type="text" name="_gotcha" style="display:none" placeholder="Name">
     <input type="text" name="name" placeholder="Name">
     <input type="text" name="_replyto" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="https://glitchwitch.io/contact-thanks/">
     <input type="hidden" name="_subject" value="Website Inquiry">
-    <input type="text" name="_gotcha" style="display:none">
     <input id="my-form-button" type="submit" value="Submit">
     <br>
     <p id="my-form-status"></p>
 </form>
+<!--/sse-->
 <p><small>Information submitted here is subject to the <a href="/privacy/">privacy policy</a> and is sent to <a href="https://formspree.io/">formspree.io</a>.</small></p>
 <hr>
 
