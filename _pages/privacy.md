@@ -9,21 +9,23 @@ image:
 ---
 ## Third Party Services
 
-The following third party services may be used by glitchwitch.io and as such you may be bound to those privacy policies as well.
+The following third party services may be used by `glitchwitch.io` and as such you may be bound to those privacy policies as well.
 
 [ProtonMail](https://protonmail.com/privacy-policy), [Formspree](https://formspree.io/legal/privacy-policy), [CloudFlare](https://www.cloudflare.com/security-policy/), [Disqus](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and [GitHub](https://help.github.com/articles/github-privacy-statement/)
 
 ## Voluntarily Submitted Information
 
-glitchwitch.io may retain information you voluntarily submit. It is up to you whether to submit information and how much information to provide. Information submitted to glitchwitch.io, including but not limited to comments, emails, and other communications may be disclosed publicly at anytime without prior warning or royalty.
+`glitchwitch.io` may retain information you voluntarily submit. It is up to you whether to submit information and how much information to provide. Information submitted to `glitchwitch.io`, including but not limited to comments, emails, and other communications may be disclosed publicly at anytime without prior warning or royalty.
 
 ## Tracking and Analytics
 
-This website relies on CloudFlare for very basic DNS based traffic analytics. Emails sent from glitchwitch.io may include tracking pixels because emails give me anxiety. Email open/click tracking can usually be blocked with third party software if you wish to opt-out of this.
+This website relies on CloudFlare for very basic DNS based traffic analytics. Additionally, a web tracking script from a self hosted instance of [Plausible Analytics](https://plausible.io/self-hosted-web-analytics) is embedded in the footer of each page. Data collected through this script data is not shared with any third-parties, but may be retained indefinitely. If you wish to opt-out of web tracking while browsing `glitchwitch.io`, simply block requests to `analytics.glitchwitch.io`.
+
+Emails sent from `glitchwitch.io` may include tracking pixels because emails give me anxiety. Email open/click tracking can usually be blocked with third party software or by disabling remote images if you wish to opt-out of this.
 
 ## Vulnerability Disclosure Policy
 
-The current vulnerability disclosure policy adopted by glitchwitch.io can be found on the [reports page](/reports).
+The current vulnerability disclosure policy adopted can be found on the [reports page](/reports).
 
 ## Privacy Policy Changes
 
