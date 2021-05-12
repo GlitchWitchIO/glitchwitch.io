@@ -1,0 +1,21 @@
+---
+layout: default
+---
+    <main class="wrapper">
+      <header class="hero" {% if page.image.hero %} style="background: url('{{ site.url }}/assets/img/{{ page.image.hero }}') 20% center/cover no-repeat !important;"{% endif %}>
+        <div class="container">
+          <h1 class="hero-title">{{ page.title }}</h1>
+          <p class="hero-text">
+            {{ page.tagline }}
+          </p>
+        </div>
+      </header>
+
+      <section class="block column padded-bottom white-smoke">
+        <div class="container">
+          <div class="post-content">{{ content }}</div>
+        </div>
+      </section>
+      {% include sections/cta-services-quotes2.html %}
+
+      {% include sections/cta-services-contact.html %}

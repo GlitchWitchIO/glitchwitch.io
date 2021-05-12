@@ -147,6 +147,20 @@
   date-published:
   published: false
 
+
+- id: GWA-2020-078
+  idc:
+  type: OR
+  type-long: Open Redirect
+  cvss:
+  cvss-string:
+  vendor: canadiantire.ca
+  status: Unpatched
+  date: 16 December 2020
+  date-patched:
+  date-published: 16 March 2021
+  published: true
+
 - id: GWA-2020-077
   idc: 5007_5
   type: NA

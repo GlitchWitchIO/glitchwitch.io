@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: about
 title: "About"
 tagline: "Information Security Researcher by day. Spooky Hacker by night."
 permalink: /about/
